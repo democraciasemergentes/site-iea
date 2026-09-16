@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>EPI · Variedades de Democracia e Descarbonização</title>
+<link>https://epi-democracia.iea.usp.br/posts/</link>
+<atom:link href="https://epi-democracia.iea.usp.br/posts/index.xml" rel="self" type="application/rss+xml"/>
+<description>Grupo de Pesquisa do Instituto de Estudos Avançados da USP dedicado à Economia Política Internacional, às Variedades de Democracia e à Descarbonização.</description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Fri, 10 Nov 2023 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Seminário reúne rede internacional sobre democracias de mercado emergente</title>
+  <dc:creator>Secretaria do Grupo</dc:creator>
+  <link>https://epi-democracia.iea.usp.br/posts/seminario-democracia-descarbonizacao/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Pesquisadores do grupo e colaboradores internacionais do Comitê de Pesquisa em Economia Política Internacional da IPSA reuniram-se para discutir os processos de reconfiguração de poder no sistema internacional e o lugar das democracias de mercado emergente.</p>
+<p>O debate deu atenção especial às <strong>políticas econômicas e climático-ambientais</strong> implementadas no Brasil desde o final dos anos 1990, com foco nas conjunturas críticas em que desafios de governança democrática pautaram escolhas decisivas.</p>
+<blockquote class="blockquote">
+<p>A observação de conjunturas críticas permite situar as opções de políticas públicas do país tanto em seu impacto estratégico interno quanto em sua forma de inserção no cenário global.</p>
+</blockquote>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Post de exemplo — substitua pelo conteúdo real e adicione uma imagem de capa com <code>image: capa.jpg</code> no cabeçalho YAML.</p>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>Eventos</category>
+  <category>Na mídia</category>
+  <guid>https://epi-democracia.iea.usp.br/posts/seminario-democracia-descarbonizacao/</guid>
+  <pubDate>Fri, 10 Nov 2023 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Grupo é aprovado pelo Conselho Deliberativo do IEA</title>
+  <dc:creator>Secretaria do Grupo</dc:creator>
+  <link>https://epi-democracia.iea.usp.br/posts/aprovacao-conselho-iea/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>O grupo de pesquisa <strong>Economia Política Internacional, Variedades de Democracia e Descarbonização</strong> foi aprovado pelo Conselho Deliberativo do Instituto de Estudos Avançados da USP em reunião realizada no dia 22 de junho de 2022.</p>
+<p>Originado a partir do projeto <em>“O Brasil como uma Variedade de Democracia de Mercado Emergente”</em>, em desenvolvimento no IEA desde agosto de 2020, o grupo reúne pesquisadores de diferentes instituições em torno da análise política das respostas do Brasil à globalização.</p>
+<p>A coordenação é da cientista política Lourdes Sola (FFLCH-USP), com vice-coordenação de Eduardo Viola (IRI-UnB).</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Este é um post de exemplo. Para criar um novo, duplique esta pasta em <code>posts/</code>, edite o cabeçalho YAML (título, data, categorias) e o conteúdo.</p>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>Institucional</category>
+  <category>Novidades</category>
+  <guid>https://epi-democracia.iea.usp.br/posts/aprovacao-conselho-iea/</guid>
+  <pubDate>Wed, 22 Jun 2022 03:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
