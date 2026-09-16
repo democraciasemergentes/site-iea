@@ -1,0 +1,58 @@
+---
+title: "Linhas de Pesquisa"
+subtitle: "Os três eixos que estruturam o trabalho do grupo"
+toc: true
+toc-title: "Eixos"
+---
+
+O programa de pesquisa se organiza em três eixos articulados. Eles não são
+compartimentos estanques: o argumento central do grupo é justamente que a
+qualidade democrática, a inserção internacional e a transição energética do Brasil
+só se explicam quando lidas em conjunto, nas conjunturas críticas em que se
+condicionam mutuamente.
+
+## Variedades de Democracia
+
+Investiga como diferentes arranjos institucionais moldam a qualidade, a estabilidade
+e a resiliência democrática em economias de mercado emergentes. Parte da tradição
+comparada de *varieties of democracy* para perguntar quais configurações de poder
+sustentam — ou corroem — a governança democrática no Brasil.
+
+**Questões norteadoras**
+
+- Que fatores explicam a variação na qualidade democrática entre democracias de mercado emergente?
+- Como conjunturas críticas redefinem o equilíbrio entre a agenda da globalização e a agenda democrática?
+- Qual o papel das instituições de controle e da sociedade civil na resiliência do regime?
+
+## Economia Política Internacional
+
+Analisa a reconfiguração de poder no sistema internacional e as opções de inserção
+global do país. O foco recai sobre a interação entre escolhas domésticas de política
+econômica e as pressões e oportunidades do cenário externo, no marco do Comitê de
+Pesquisa em Economia Política Internacional da IPSA.
+
+**Questões norteadoras**
+
+- Como o Brasil equaciona autonomia e integração diante da globalização?
+- De que modo coalizões domésticas condicionam a política econômica externa?
+- Que lugar ocupam as democracias de mercado emergente na ordem internacional em transformação?
+
+## Descarbonização
+
+Examina as políticas climático-ambientais como eixo estratégico de desenvolvimento
+e de reposicionamento internacional. Trata a transição de baixo carbono não apenas
+como desafio ambiental, mas como escolha político-econômica que reorganiza interesses,
+setores e a inserção do país no cenário global.
+
+**Questões norteadoras**
+
+- Como a agenda de descarbonização interage com a agenda de desenvolvimento?
+- Que coalizões viabilizam ou bloqueiam a transição energética no Brasil?
+- De que forma a política climática afeta o poder estrutural do país no sistema internacional?
+
+---
+
+::: {.callout-note appearance="simple"}
+As publicações associadas a cada linha podem ser filtradas por categoria na página
+de [Publicações](../publicacoes/index.qmd).
+:::

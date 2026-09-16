@@ -1,0 +1,75 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "EPI · Variedades de Democracia e Descarbonização"
+  description: >-
+    Grupo de Pesquisa do Instituto de Estudos Avançados da USP dedicado à
+    Economia Política Internacional, às Variedades de Democracia e à
+    Descarbonização.
+  site-url: https://epi-democracia.iea.usp.br
+  favicon: images/favicon.png
+
+  navbar:
+    logo: images/logo.png
+    logo-alt: "IEA-USP · Grupo EPI"
+    title: false
+    collapse-below: lg
+    left:
+      - text: "Início"
+        href: index.qmd
+      - text: "O Grupo"
+        href: sobre.qmd
+      - text: "Colaboradores"
+        href: equipe/index.qmd
+      - text: "Linhas de Pesquisa"
+        href: linhas/index.qmd
+      - text: "Publicações"
+        href: publicacoes/index.qmd
+      - text: "Notícias"
+        href: posts/index.qmd
+    right:
+      - icon: youtube
+        href: https://www.iea.usp.br/youtube
+        aria-label: YouTube do IEA
+      - icon: envelope
+        href: mailto:iea@usp.br
+        aria-label: Contato
+      - text: "IEA-USP"
+        href: https://www.iea.usp.br
+        target: _blank
+
+  page-footer:
+    background: light
+    left: |
+      **Grupo de Pesquisa EPI, Variedades de Democracia e Descarbonização**<br>
+      Instituto de Estudos Avançados da Universidade de São Paulo (IEA-USP)
+    center: |
+      Projeto FAPESP 2019/16970-5<br>
+      Coordenação: Lourdes Sola · Vice: Eduardo Viola
+    right: |
+      © 2026 IEA-USP<br>
+      Construído com [Quarto](https://quarto.org)
+
+  search:
+    location: navbar
+    type: overlay
+
+lang: pt
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/tema.scss]
+      dark: [cosmo, assets/tema-dark.scss]
+    css: assets/estilos.css
+    toc: false
+    grid:
+      body-width: 1100px
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+
+execute:
+  freeze: auto

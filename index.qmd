@@ -1,0 +1,103 @@
+---
+pagetitle: "Grupo EPI · Variedades de Democracia e Descarbonização — IEA-USP"
+page-layout: full
+toc: false
+listing:
+  id: listagem-home
+  contents: "posts/*/index.qmd"
+  sort: "date desc"
+  type: grid
+  max-items: 3
+  fields: [date, title, description]
+---
+
+```{=html}
+<div class="hero">
+  <span class="badge-fapesp">Projeto FAPESP 2019/16970-5 · IEA-USP</span>
+  <h1>Economia Política Internacional, Variedades de Democracia e Descarbonização</h1>
+  <p class="lead">Uma análise política das respostas do Brasil à globalização — situando
+  as escolhas de políticas econômicas e climático-ambientais do país em conjunturas
+  críticas, do final dos anos 1990 ao presente.</p>
+  <a href="sobre.html" class="btn-hero">Conheça o projeto</a>
+  <a href="linhas/index.html" class="btn-hero ghost">Linhas de pesquisa</a>
+</div>
+
+<h2 class="secao-titulo">O que investigamos</h2>
+<p>O grupo estuda como novos desafios de governança democrática pautaram escolhas de
+políticas públicas decisivas no Brasil — tanto em seu impacto estratégico sobre os
+rumos do país quanto sobre sua forma de inserção no cenário global. O trabalho integra
+o Comitê de Pesquisa em Economia Política Internacional da
+<a href="https://www.ipsa.org/">Associação Internacional de Ciência Política (IPSA)</a>,
+dedicado ao estudo comparativo de <strong>democracias de mercado emergente</strong>.</p>
+
+<div class="grid-destaques">
+  <div class="card-destaque">
+    <div class="icone">🏛️</div>
+    <h3>Variedades de Democracia</h3>
+    <p>Como diferentes arranjos institucionais moldam a qualidade e a resiliência
+    democrática em economias de mercado emergentes.</p>
+  </div>
+  <div class="card-destaque">
+    <div class="icone">🌐</div>
+    <h3>Economia Política Internacional</h3>
+    <p>A reconfiguração de poder no sistema internacional e as opções de inserção
+    global do Brasil diante da globalização.</p>
+  </div>
+  <div class="card-destaque">
+    <div class="icone">🌱</div>
+    <h3>Descarbonização</h3>
+    <p>As políticas climático-ambientais como eixo estratégico de desenvolvimento
+    e de reposicionamento do país no cenário global.</p>
+  </div>
+</div>
+```
+
+```{=html}
+<h2 class="secao-titulo">Notícias e destaques</h2>
+```
+
+::: {#listagem-home}
+:::
+
+```{=html}
+<p style="margin-top:1rem;">
+<a href="posts/index.html" class="btn-hero" style="background:#1d5b78;color:#fff;">Ver todas as notícias →</a>
+</p>
+
+<h2 class="secao-titulo">Coordenação</h2>
+<div class="coord-destaque">
+  <div class="coord-card">
+    <div class="avatar-fallback">LS</div>
+    <div>
+      <span class="nome">Lourdes Sola</span><br>
+      <span class="papel">Coordenadora</span><br>
+      <span class="instituicao">FFLCH-USP · Professora Sênior do IEA</span>
+    </div>
+  </div>
+  <div class="coord-card vice">
+    <div class="avatar-fallback">EV</div>
+    <div>
+      <span class="nome">Eduardo Viola</span><br>
+      <span class="papel">Vice-coordenador</span><br>
+      <span class="instituicao">IRI-UnB · Pesquisador Colaborador do IEA</span>
+    </div>
+  </div>
+</div>
+<p><a href="equipe/index.html">Ver toda a equipe →</a></p>
+
+<h2 class="secao-titulo">Rede e instituições parceiras</h2>
+<p>O projeto se articula com uma rede global de pesquisadores do Comitê de Pesquisa
+em Economia Política Internacional da IPSA, criado por Lourdes Sola e Laurence
+Whitehead (Universidade de Oxford).</p>
+<div class="parceiros">
+  <a href="https://www.iea.usp.br">IEA-USP</a>
+  <a href="https://fapesp.br">FAPESP</a>
+  <a href="https://www.ipsa.org/">IPSA</a>
+  <a href="https://www.iri.usp.br/">IRI-USP</a>
+  <a href="https://www.unb.br/">IRI-UnB</a>
+  <a href="https://www.ox.ac.uk/">University of Oxford</a>
+  <a href="https://www.lse.ac.uk/">LSE</a>
+  <a href="https://www.sfu.ca/">Simon Fraser University</a>
+  <a href="https://www.american.edu/">American University</a>
+</div>
+```
