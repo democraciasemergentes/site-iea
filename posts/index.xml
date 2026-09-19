@@ -5,11 +5,11 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>EPI · Variedades de Democracia e Descarbonização</title>
+<title>Democracias de Mercado Emergentes</title>
 <link>https://epi-democracia.iea.usp.br/posts/</link>
 <atom:link href="https://epi-democracia.iea.usp.br/posts/index.xml" rel="self" type="application/rss+xml"/>
 <description>Grupo de Pesquisa do Instituto de Estudos Avançados da USP dedicado à Economia Política Internacional, às Variedades de Democracia e à Descarbonização.</description>
-<generator>quarto-1.7.32</generator>
+<generator>quarto-1.10.18</generator>
 <lastBuildDate>Fri, 10 Nov 2023 03:00:00 GMT</lastBuildDate>
 <item>
   <title>Seminário reúne rede internacional sobre democracias de mercado emergente</title>
