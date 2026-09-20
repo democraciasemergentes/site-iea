@@ -1,0 +1,68 @@
+/*-- scss:defaults --*/
+
+// Paleta institucional — azul-petróleo (democracia/instituições) + verde (descarbonização)
+$azul-profundo:  #12303f;
+$azul-medio:     #1d5b78;
+$azul-claro:     #3a8fb7;
+$verde:          #2f7d5b;
+$verde-claro:    #4fae83;
+$areia:          #f6f3ec;
+$cinza-texto:    #2b2b2b;
+$cinza-suave:    #6b7280;
+
+// Bootstrap overrides
+$primary:          $azul-medio;
+$secondary:        $verde;
+$body-color:       $cinza-texto;
+$link-color:       $azul-medio;
+$link-hover-color: $azul-profundo;
+
+// Fontes — Fraunces (títulos) + Inter (corpo)
+$font-family-sans-serif: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+$font-family-base:       "Inter", system-ui, -apple-system, sans-serif;
+$headings-font-family:   "Fraunces", Georgia, "Times New Roman", serif;
+$font-size-base:         1.05rem;
+$line-height-base:       1.65;
+$headings-font-weight:   600;
+
+$navbar-bg:              #ffffff;
+$navbar-fg:              $azul-profundo;
+
+/*-- scss:rules --*/
+
+// Import das fontes (precisa ficar no topo do CSS gerado)
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  background-color: #ffffff;
+}
+
+// Navbar mais leve, com borda inferior sutil
+.navbar {
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.03);
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+.navbar .navbar-brand img { max-height: 46px; }
+.navbar-nav .nav-link {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+.navbar-nav .nav-link:hover { color: $azul-medio !important; }
+
+// Títulos
+h1, h2, h3, h4 { color: $azul-profundo; letter-spacing: -0.01em; }
+h2 { margin-top: 2.2rem; }
+
+// Links de conteúdo
+main a { text-decoration: none; border-bottom: 1px solid rgba(29,91,120,0.25); }
+main a:hover { border-bottom-color: $azul-medio; }
+
+// Rodapé
+.nav-footer {
+  border-top: 3px solid $azul-medio;
+  font-size: 0.92rem;
+  color: $cinza-suave;
+}
+.nav-footer a { color: $azul-medio; }

@@ -1,0 +1,15 @@
+---
+title: "Notícias e Destaques"
+subtitle: "Eventos, aparições na mídia e novidades do grupo"
+listing:
+  contents: "*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: true
+  fields: [image, date, title, description, categories, reading-time]
+  feed: true
+page-layout: full
+title-block-banner: false
+---

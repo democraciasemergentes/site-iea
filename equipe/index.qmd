@@ -1,0 +1,92 @@
+---
+title: "Colaboradores"
+subtitle: "Coordenação, integrantes e colaboradores internacionais"
+toc: false
+page-layout: full
+---
+
+```{=html}
+<h2 class="secao-titulo">Coordenação</h2>
+<div class="coord-destaque">
+  <div class="coord-card">
+    <div class="avatar-fallback">LS</div>
+    <div>
+      <span class="nome">Lourdes Sola</span><br>
+      <span class="papel">Coordenadora</span><br>
+      <span class="instituicao">FFLCH-USP · Professora Sênior do IEA</span>
+    </div>
+  </div>
+  <div class="coord-card vice">
+    <div class="avatar-fallback">EV</div>
+    <div>
+      <span class="nome">Eduardo Viola</span><br>
+      <span class="papel">Vice-coordenador</span><br>
+      <span class="instituicao">IRI-UnB · Pesquisador Colaborador do IEA</span>
+    </div>
+  </div>
+</div>
+
+<h2 class="secao-titulo">Integrantes</h2>
+<div class="grid-equipe">
+  <div class="pessoa"><div class="avatar-fallback">MS</div>
+    <span class="nome">Maria Tereza Sadek</span>
+    <span class="papel">Professora Sênior</span>
+    <span class="instituicao">FFLCH-USP · FGV · CEDES</span></div>
+  <div class="pessoa"><div class="avatar-fallback">CL</div>
+    <span class="nome">Cristiane Lucena</span>
+    <span class="papel">Professora</span>
+    <span class="instituicao">IRI-USP</span></div>
+  <div class="pessoa"><div class="avatar-fallback">VV</div>
+    <span class="nome">Vinícius Rodrigues Vieira</span>
+    <span class="papel">Professor</span>
+    <span class="instituicao">FAAP · FGV-SP · IPSA RC-51</span></div>
+  <div class="pessoa"><div class="avatar-fallback">SV</div>
+    <span class="nome">Sergio Vale</span>
+    <span class="papel">Economista-chefe </span>
+    <span class="instituicao">MB Associados · IEA-USP</span></div>
+  <div class="pessoa"><div class="avatar-fallback">MM</div>
+    <span class="nome">Moisés da Silva Marques</span>
+    <span class="papel">Vice-diretor geral</span>
+    <span class="instituicao">FESPSP</span></div>
+  <div class="pessoa"><div class="avatar-fallback">EB</div>
+    <span class="nome">Elizabeth Balbachevsky</span>
+    <span class="papel">Professora · Coord. científica</span>
+    <span class="instituicao">FFLCH-USP · NUPPs</span></div>
+  <div class="pessoa"><div class="avatar-fallback">LY</div>
+    <span class="nome">Luciana Yeung</span>
+    <span class="papel">Professora</span>
+    <span class="instituicao">Insper</span></div>
+  <div class="pessoa"><div class="avatar-fallback">LB</div>
+    <span class="nome">Larissa Basso</span>
+    <span class="papel">Pesquisadora bolsista</span>
+    <span class="instituicao">Ipea</span></div>
+</div>
+
+<h2 class="secao-titulo">Colaboradores internacionais</h2>
+<p>Integrantes do Comitê de Pesquisa em Economia Política Internacional da IPSA
+que colaboram no projeto:</p>
+<div class="grid-equipe">
+  <div class="pessoa"><div class="avatar-fallback">LW</div>
+    <span class="nome">Laurence Whitehead</span>
+    <span class="papel">Presidente do RC · IPSA</span>
+    <span class="instituicao">University of Oxford, Reino Unido</span></div>
+  <div class="pessoa"><div class="avatar-fallback">LA</div>
+    <span class="nome">Leslie Elliott Armijo</span>
+    <span class="papel">Colaboradora</span>
+    <span class="instituicao">Simon Fraser University, Canadá</span></div>
+  <div class="pessoa"><div class="avatar-fallback">KH</div>
+    <span class="nome">Kathryn Hochstettler</span>
+    <span class="papel">Colaboradora</span>
+    <span class="instituicao">LSE, Reino Unido</span></div>
+  <div class="pessoa"><div class="avatar-fallback">MT</div>
+    <span class="nome">Matthew Taylor</span>
+    <span class="papel">Colaborador</span>
+    <span class="instituicao">American University, EUA</span></div>
+</div>
+```
+
+::: {.callout-tip appearance="simple"}
+**Para adicionar uma foto real:** troque o bloco `avatar-fallback` por uma imagem
+`<img src="../images/nome.jpg">` dentro do `div.pessoa`. As iniciais são apenas um
+substituto elegante enquanto não há retrato.
+:::

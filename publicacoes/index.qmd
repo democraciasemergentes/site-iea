@@ -1,0 +1,25 @@
+---
+title: "Publicações"
+subtitle: "Produção do grupo de pesquisa"
+bibliography: referencias.bib
+nocite: |
+  @*
+toc: false
+---
+
+A lista abaixo é gerada automaticamente a partir do arquivo `referencias.bib`.
+Para incluir uma nova publicação, basta adicionar sua entrada BibTeX ao arquivo —
+o mesmo formato exportado por Zotero, Mendeley ou pelo pacote `RefManageR` em R.
+A formatação segue o estilo **ABNT**.
+
+::: {.callout-note appearance="simple"}
+As entradas atuais são **exemplos ilustrativos**. Substitua-as pela produção real
+do grupo mantendo o formato BibTeX.
+:::
+
+---
+
+### Referências
+
+::: {#refs}
+:::

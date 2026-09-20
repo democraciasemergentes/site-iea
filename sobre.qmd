@@ -1,0 +1,63 @@
+---
+title: "O Grupo"
+subtitle: "Economia Política Internacional, Variedades de Democracia e Descarbonização"
+toc: true
+toc-title: "Nesta página"
+---
+
+## Origem
+
+O grupo de pesquisa nasceu do projeto **"O Brasil como uma Variedade de Democracia
+de Mercado Emergente: Entre a Agenda da Globalização e a Agenda Democrática"**, em
+desenvolvimento no Instituto de Estudos Avançados da USP (IEA-USP) desde agosto de
+2020. Foi aprovado pelo Conselho Deliberativo do IEA em reunião de 22 de junho de 2022.
+
+A coordenação é da cientista política **Lourdes Sola**, da Faculdade de Filosofia,
+Letras e Ciências Humanas (FFLCH) da USP e professora sênior do IEA. A
+vice-coordenação é do cientista político **Eduardo Viola**, do Instituto de
+Relações Internacionais da UnB e pesquisador colaborador do IEA.
+
+## Objetivos
+
+O objetivo principal é desenvolver uma **análise política das respostas do Brasil
+à globalização**, de forma a situar e interpretar as opções de políticas públicas
+do país. O grupo integra o projeto do Comitê de Pesquisa em Economia Política
+Internacional da [Associação Internacional de Ciência Política (IPSA)](https://www.ipsa.org/),
+dedicado ao estudo comparativo de democracias de mercado emergente.
+
+O projeto dá atenção especial às **políticas econômicas e climático-ambientais**
+implementadas desde o final dos anos 1990. O ponto focal é a observação de
+**conjunturas críticas** nas quais novos desafios de governança democrática pautaram
+escolhas de políticas públicas decisivas — tanto em termos de seu impacto estratégico
+sobre os rumos do país quanto sobre sua forma de inserção no cenário global.
+
+## Rede internacional
+
+O projeto da IPSA foi criado por Lourdes Sola e **Laurence Whitehead**, presidente
+do comitê de pesquisa da entidade e professor da Universidade de Oxford. É constituído
+por uma rede global de acadêmicos que buscam lançar novas perspectivas sobre os
+processos de reconfiguração de poder no sistema internacional, com foco nas
+democracias de mercado emergente.
+
+Colaboram no projeto em desenvolvimento no IEA:
+
+| Pesquisador(a) | Instituição |
+|---|---|
+| Laurence Whitehead | University of Oxford, Reino Unido |
+| Leslie Elliott Armijo | Simon Fraser University, Canadá |
+| Kathryn Hochstettler | London School of Economics (LSE), Reino Unido |
+| Matthew Taylor | American University, EUA |
+
+## Financiamento
+
+::: {.callout-note}
+## Projeto FAPESP 2019/16970-5
+Este grupo está associado ao auxílio de pesquisa da Fundação de Amparo à Pesquisa do
+Estado de São Paulo (FAPESP).
+[Ver na Biblioteca Virtual da FAPESP →](https://bv.fapesp.br/pt/auxilios/111047/brasil-como-uma-variedade-de-democracia-de-mercado-emergente-entre-a-agenda-democratica-e-a-agenda-d/)
+:::
+
+## Vínculo institucional
+
+O grupo é sediado no [Instituto de Estudos Avançados da USP](https://www.iea.usp.br/pesquisa/grupos-pesquisa/econ-pol-inter-democracia-descarbonizacao),
+na linha de Grupos de Pesquisa da instituição.

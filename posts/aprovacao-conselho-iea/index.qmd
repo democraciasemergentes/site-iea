@@ -1,0 +1,24 @@
+---
+title: "Grupo é aprovado pelo Conselho Deliberativo do IEA"
+description: "O grupo de pesquisa foi oficializado em reunião de 22 de junho, sob coordenação de Lourdes Sola e vice-coordenação de Eduardo Viola."
+date: "2022-06-22"
+categories: [Institucional, Novidades]
+author: "Secretaria do Grupo"
+---
+
+O grupo de pesquisa **Economia Política Internacional, Variedades de Democracia e
+Descarbonização** foi aprovado pelo Conselho Deliberativo do Instituto de Estudos
+Avançados da USP em reunião realizada no dia 22 de junho de 2022.
+
+Originado a partir do projeto *"O Brasil como uma Variedade de Democracia de Mercado
+Emergente"*, em desenvolvimento no IEA desde agosto de 2020, o grupo reúne
+pesquisadores de diferentes instituições em torno da análise política das respostas
+do Brasil à globalização.
+
+A coordenação é da cientista política Lourdes Sola (FFLCH-USP), com vice-coordenação
+de Eduardo Viola (IRI-UnB).
+
+::: {.callout-note appearance="simple"}
+Este é um post de exemplo. Para criar um novo, duplique esta pasta em `posts/`,
+edite o cabeçalho YAML (título, data, categorias) e o conteúdo.
+:::
