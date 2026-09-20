@@ -50,9 +50,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-31547dc8d5a4c7e40ad03a42939324cc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-e3240ff97132c5b2e52a5f3e42a5b0b1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-31547dc8d5a4c7e40ad03a42939324cc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fdfcda8ce2dc4e1d0b3b6f7b2c26c217.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-62e2dc67e2e1ddb71798751b7e3aced4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-fdfcda8ce2dc4e1d0b3b6f7b2c26c217.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -384,7 +384,7 @@ window.Quarto = {
 
 
 <div id="iea-hero">
-  <svg id="iea-net" viewbox="0 0 1200 560" preserveaspectratio="xMidYMid slice" role="img" aria-label="Rede de temas de pesquisa do grupo">
+  <svg id="iea-net" viewbox="0 0 1200 480" preserveaspectratio="xMidYMid slice" role="img" aria-label="Rede de temas de pesquisa do grupo">
     <g id="iea-edges"></g>
     <g id="iea-nodes"></g>
   </svg>
@@ -397,7 +397,8 @@ window.Quarto = {
 
 <style>
   #iea-hero{
-    position:relative; width:100%; min-height:560px;
+    position:relative; width:100%;
+    min-height:clamp(340px, 46vw, 480px);
     display:flex; align-items:flex-start;
     border-radius:16px; overflow:hidden;
     background:#0E1B2A; /* azul-noite institucional #0E1B2A; troque à vontade ... #98b9f4 */
@@ -431,7 +432,7 @@ window.Quarto = {
     font-size:1.02rem; color:#b9d0ec; margin:0; font-weight:400;
   }
   @media (max-width:700px){
-    #iea-hero-content{ padding:2.5rem 1.6rem; }
+    #iea-hero-content{ padding:2rem 1.4rem; }
     #iea-hero::after{
       background:linear-gradient(180deg, rgba(63, 120, 189,.55) 0%, rgba(63, 120, 189,.90) 100%);
     }
@@ -498,7 +499,7 @@ window.Quarto = {
 
 <script>
 (function(){
-  var W=1200,H=560;
+  var W=1200,H=480;
   var svg=document.getElementById('iea-net');
   var gE=document.getElementById('iea-edges'), gN=document.getElementById('iea-nodes');
   if(!svg||!gE||!gN) return;
@@ -1144,7 +1145,7 @@ Whitehead (Universidade de Oxford).</p>
 <p><strong>Grupo de Pesquisa Democracias de mercado emergentes</strong><br> Instituto de Estudos Avançados da Universidade de São Paulo (IEA-USP)</p>
 </div>   
     <div class="nav-footer-center">
-<p>Projeto FAPESP 2019/16970-5<br> Coordenação: Lourdes Sola · Vice: Eduardo Viola</p>
+<p>Projeto FAPESP 2019/16970-5<br> Coordenação: Lourdes Sola · Eduardo Viola</p>
 </div>
     <div class="nav-footer-right">
 <p>© 2026 DME <br> Construído com <a href="https://quarto.org">Quarto</a></p>
