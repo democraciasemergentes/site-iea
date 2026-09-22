@@ -1,25 +1,40 @@
 ---
 title: "Publicações"
 subtitle: "Produção do grupo de pesquisa"
-bibliography: referencias.bib
-nocite: |
-  @*
+listing:
+  id: pubs
+  contents: itens
+  type: grid
+  grid-columns: 2
+  sort: "date desc"
+  categories: numbered
+  sort-ui: [date, author, title]
+  filter-ui: true
+  fields: [title, author, description, categories]
+  field-display-names:
+    description: "Veículo"
+  page-size: 60
 toc: false
+page-layout: full
+css: publicacoes.css
+include-after-body:
+  text: |
+    <script src="links.js"></script>
+    <script src="publicacoes.js"></script>
 ---
 
-A lista abaixo é gerada automaticamente a partir do arquivo `referencias.bib`.
-Para incluir uma nova publicação, basta adicionar sua entrada BibTeX ao arquivo —
-o mesmo formato exportado por Zotero, Mendeley ou pelo pacote `RefManageR` em R.
-A formatação segue o estilo **ABNT**.
+A produção abaixo reúne artigos, livros, capítulos e trabalhos apresentados
+pelos pesquisadores do grupo. Use os filtros por **tipo** e **ano**, a busca,
+ou a ordenação para localizar um título.
 
-::: {.callout-note appearance="simple"}
-As entradas atuais são **exemplos ilustrativos**. Substitua-as pela produção real
-do grupo mantendo o formato BibTeX.
-:::
+```{=html}
+<div class="pub-legenda">
+  <span><i style="background:#1d5b78"></i>Artigo</span>
+  <span><i style="background:#12303f"></i>Livro</span>
+  <span><i style="background:#3a8fb7"></i>Capítulo</span>
+  <span><i style="background:#2f7d5b"></i>Trabalho</span>
+</div>
+```
 
----
-
-### Referências
-
-::: {#refs}
+::: {#pubs}
 :::

@@ -1,0 +1,7 @@
+---
+title: "Poder Judiciário no Brasil"
+date: "2025-01-01"
+author: ["Maria Tereza A. Sadek"]
+categories: ["Capítulo", "2025"]
+description: "In: Estado de Direito e Três Poderes. Konrad Adenauer Stiftung"
+---

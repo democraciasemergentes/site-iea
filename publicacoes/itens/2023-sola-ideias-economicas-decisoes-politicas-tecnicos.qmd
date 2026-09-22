@@ -1,0 +1,7 @@
+---
+title: "Ideias Econômicas, Decisões Políticas: técnicos e políticos no governo da economia (2ª ed. ampliada)"
+date: "2023-01-01"
+author: ["Lourdes Sola"]
+categories: ["Livro", "2023"]
+description: "EDUSP"
+---

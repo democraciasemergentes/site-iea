@@ -1,0 +1,7 @@
+---
+title: "Obstruction in the UNFCCC and the Intergovernmental Panel on Climate Change"
+date: "2025-01-01"
+author: ["Eduardo Viola"]
+categories: ["Capítulo", "2025"]
+description: "In: Climate Obstruction: a global assessment. Oxford University Press"
+---

@@ -1,0 +1,7 @@
+---
+title: "A política climática internacional (1992–2026): do globalismo cooperativo à fragmentação geopolítica numa Terra acima de 1,5 °C"
+date: "2026-01-01"
+author: ["Eduardo Viola"]
+categories: ["Capítulo", "2026"]
+description: "In: A integração do Brasil ao mundo no século XXI. CINDES"
+---

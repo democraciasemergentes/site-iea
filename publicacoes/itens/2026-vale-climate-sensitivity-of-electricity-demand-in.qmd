@@ -1,0 +1,7 @@
+---
+title: "Climate Sensitivity of Electricity Demand in a Tropical Emerging Economy: long-run evidence from Brazil"
+date: "2026-01-01"
+author: ["Sérgio R. Vale", "Virginia Parente"]
+categories: ["Artigo", "2026"]
+description: "International Journal of Energy Economics and Policy, v. 16, n. 5"
+---

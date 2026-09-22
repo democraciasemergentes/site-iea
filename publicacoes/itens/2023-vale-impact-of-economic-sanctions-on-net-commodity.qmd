@@ -1,0 +1,7 @@
+---
+title: "Impact of economic sanctions on net commodity-producing and net commodity-consuming countries"
+date: "2023-01-01"
+author: ["Sérgio R. Vale", "Eduardo Viola"]
+categories: ["Artigo", "2023"]
+description: "Revista Brasileira de Política Internacional, v. 66"
+---

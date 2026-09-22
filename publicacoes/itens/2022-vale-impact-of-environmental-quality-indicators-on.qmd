@@ -1,0 +1,7 @@
+---
+title: "Impact of environmental quality indicators on soft power: a few empirical estimates"
+date: "2022-01-01"
+author: ["Sérgio R. Vale", "Moisés S. Marques"]
+categories: ["Artigo", "2022"]
+description: "Journal of Political Power, v. 15"
+---

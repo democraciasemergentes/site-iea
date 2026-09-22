@@ -1,0 +1,7 @@
+---
+title: "From the neoliberal utilitarianism to the state strikes back: international political economy and the fate of globalization in the next decades"
+date: "2026-01-01"
+author: ["Vinícius Rodrigues Vieira", "Eduardo Viola"]
+categories: ["Capítulo", "2026"]
+description: "In: Perspectives on Reglobalization. Springer"
+---

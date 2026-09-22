@@ -1,0 +1,7 @@
+---
+title: "The expansion of the BRICS and the future of the world order"
+date: "2025-01-01"
+author: ["Vinícius Rodrigues Vieira"]
+categories: ["Capítulo", "2025"]
+description: "In: The Great Decoupling: a new global order/disorder? Palgrave"
+---

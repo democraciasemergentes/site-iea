@@ -1,0 +1,7 @@
+---
+title: "Indigenous and traditional communities' ways of knowing and being in planetary justice"
+date: "2024-01-01"
+author: ["Cristina Yumie Aoki Inoue", "Thais Lemos Ribeiro", "Verônica Korber Gonçalves", "Larissa Basso", "Paula Franco Moreira"]
+categories: ["Artigo", "2024"]
+description: "Environmental Politics"
+---

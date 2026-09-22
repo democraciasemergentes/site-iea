@@ -1,0 +1,7 @@
+---
+title: "Federalism and Public Health Governance: the role of state-level horizontal coordination during responses to COVID-19 in Brazil"
+date: "2024-01-01"
+author: ["Lourdes Sola", "Cristiane Lucena Carneiro", "Vinícius Rodrigues Vieira"]
+categories: ["Artigo", "2024"]
+description: "Desarrollo Económico, v. 64, n. 242"
+---

@@ -1,0 +1,7 @@
+---
+title: "Emerging Middle Classes and Political Discontent in Brazil: rethinking the economic and non-economic determinants of polarization"
+date: "2026-01-01"
+author: ["Lourdes Sola", "Sérgio R. Vale", "Paulo C. da S. Flores"]
+categories: ["Trabalho", "2026"]
+description: "Working paper — Work-in-Progress 2026, IPSA"
+---

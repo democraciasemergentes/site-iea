@@ -1,0 +1,7 @@
+---
+title: "Review Article: Global Governance in a Complex World"
+date: "2023-01-01"
+author: ["Cristiane Lucena Carneiro"]
+categories: ["Artigo", "2023"]
+description: "Frontiers in Law, v. 2"
+---

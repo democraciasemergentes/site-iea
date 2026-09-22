@@ -1,0 +1,7 @@
+---
+title: "The Political Economy of Climate Change Mitigation in Argentina, Brazil and Peru"
+date: "2024-01-01"
+author: ["Larissa Basso"]
+categories: ["Artigo", "2024"]
+description: "Iberoamericana – Nordic Journal of Latin American and Caribbean Studies, v. 53, n. 1"
+---

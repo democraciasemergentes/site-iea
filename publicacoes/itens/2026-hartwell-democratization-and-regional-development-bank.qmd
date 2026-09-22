@@ -1,0 +1,7 @@
+---
+title: "Democratization and regional development banks: a cross-continental comparative analysis"
+date: "2026-01-01"
+author: ["Christopher A. Hartwell", "Anastassia Obydenkova", "Vinícius Rodrigues Vieira"]
+categories: ["Artigo", "2026"]
+description: "Political Research Quarterly (no prelo)"
+---

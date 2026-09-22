@@ -1,0 +1,7 @@
+---
+title: "Building Capabilities for Earth System Governance"
+date: "2024-01-01"
+author: ["Jochen Prantl", "Ana Flávia Barros-Platiau", "Cristina Inoue", "Joana Castro Pereira", "Eduardo Viola"]
+categories: ["Livro", "2024"]
+description: "Cambridge Elements in Earth System Governance, v. 1"
+---

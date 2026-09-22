@@ -1,0 +1,7 @@
+---
+title: "Energy transition in Brazil: challenges to achieve the SDG 7"
+date: "2024-01-01"
+author: ["Larissa Basso"]
+categories: ["Capítulo", "2024"]
+description: "In: The quest for the Sustainable Development Goals. Springer"
+---

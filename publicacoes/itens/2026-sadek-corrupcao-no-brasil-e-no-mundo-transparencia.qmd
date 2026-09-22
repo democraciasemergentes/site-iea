@@ -1,0 +1,7 @@
+---
+title: "Corrupção no Brasil e no Mundo: transparência, política e análises"
+date: "2026-01-01"
+author: ["Maria Tereza A. Sadek", "Rita de Cássia Biason", "Roberto Livianu"]
+categories: ["Livro", "2026"]
+description: "Almedina Brasil"
+---

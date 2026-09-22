@@ -1,0 +1,7 @@
+---
+title: "Shaping Nations and Markets: identity capital, trade, and the populist rage"
+date: "2023-01-01"
+author: ["Vinícius Rodrigues Vieira"]
+categories: ["Livro", "2023"]
+description: "Routledge"
+---

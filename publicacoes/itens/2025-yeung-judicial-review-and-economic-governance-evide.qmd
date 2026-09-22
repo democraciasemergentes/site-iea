@@ -1,0 +1,7 @@
+---
+title: "Judicial Review and Economic Governance: evidence from the Brazilian Supreme Court"
+date: "2025-01-01"
+author: ["Luciana Yeung"]
+categories: ["Artigo", "2025"]
+description: "International Review of Law and Economics (submetido)"
+---

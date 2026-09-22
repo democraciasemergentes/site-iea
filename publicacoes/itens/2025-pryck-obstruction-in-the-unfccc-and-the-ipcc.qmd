@@ -1,0 +1,7 @@
+---
+title: "Obstruction in the UNFCCC and the IPCC"
+date: "2025-01-01"
+author: ["Kari De Pryck", "Eduardo Viola", "Stefan C. Aykut", "Larissa Basso"]
+categories: ["Capítulo", "2025"]
+description: "In: Climate Obstruction: a global assessment. Oxford University Press"
+---

@@ -1,0 +1,7 @@
+---
+title: "La relación bilateral entre Brasil y Estados Unidos"
+date: "2025-01-01"
+author: ["Cristiane Lucena Carneiro"]
+categories: ["Artigo", "2025"]
+description: "Foreign Affairs Latinoamérica, v. 25, n. 2"
+---

@@ -1,0 +1,7 @@
+---
+title: "O Judiciário Brasileiro: uma análise empírica e econômica"
+date: "2024-01-01"
+author: ["Luciana Yeung"]
+categories: ["Livro", "2024"]
+description: "Foco"
+---

@@ -1,0 +1,7 @@
+---
+title: "Democracy, economic growth and volatility in Brazil: what is the causality?"
+date: "2025-01-01"
+author: ["Sérgio R. Vale"]
+categories: ["Artigo", "2025"]
+description: "Revista Brasileira de Ciência Política, v. 44"
+---

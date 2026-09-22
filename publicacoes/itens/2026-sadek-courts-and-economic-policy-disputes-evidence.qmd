@@ -1,0 +1,7 @@
+---
+title: "Courts and Economic Policy Disputes: evidence from the Brazilian Supreme Court"
+date: "2026-01-01"
+author: ["Maria Tereza A. Sadek", "Sérgio R. Vale", "Luciana Yeung"]
+categories: ["Artigo", "2026"]
+description: "International Review of Law and Economics (em avaliação)"
+---
