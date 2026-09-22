@@ -1,5 +1,5 @@
 ---
-pagetitle: "Grupo EPI · Variedades de Democracia e Descarbonização — IEA-USP"
+pagetitle: "Democracias de Mercado Emergente"
 page-layout: full
 toc: false
 engine: markdown
@@ -21,7 +21,7 @@ listing:
   </svg>
 
   <div id="iea-hero-content">
-    <div class="iea-title">Democracias de<br> mercado emergentes</div>
+    <div class="iea-title">Democracias de<br> mercado emergente</div>
     <div class="iea-sub">Grupo de Pesquisa · Projeto Temático FAPESP</div>
   </div>
 </div>
