@@ -26,26 +26,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -56,6 +37,8 @@ div.csl-indent {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../images/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -96,13 +79,72 @@ div.csl-indent {
     "search-label": "Procurar"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-pubs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-pubs'] = new List('listing-pubs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../assets/estilos.css">
+<link rel="stylesheet" href="publicacoes.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -331,12 +373,13 @@ div.csl-indent {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tudo <span class="quarto-category-count">(36)</span></div><div class="category" data-category="MjAyMg==">2022 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="MjAyMw==">2023 <span class="quarto-category-count">(5)</span></div><div class="category" data-category="MjAyNA==">2024 <span class="quarto-category-count">(10)</span></div><div class="category" data-category="MjAyNQ==">2025 <span class="quarto-category-count">(12)</span></div><div class="category" data-category="MjAyNg==">2026 <span class="quarto-category-count">(8)</span></div><div class="category" data-category="QXJ0aWdv">Artigo <span class="quarto-category-count">(19)</span></div><div class="category" data-category="Q2FwJUMzJUFEdHVsbw==">Capítulo <span class="quarto-category-count">(8)</span></div><div class="category" data-category="TGl2cm8=">Livro <span class="quarto-category-count">(6)</span></div><div class="category" data-category="VHJhYmFsaG8=">Trabalho <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -347,7 +390,7 @@ div.csl-indent {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -359,37 +402,940 @@ div.csl-indent {
 </header>
 
 
-<p>A lista abaixo é gerada automaticamente a partir do arquivo <code>referencias.bib</code>. Para incluir uma nova publicação, basta adicionar sua entrada BibTeX ao arquivo — o mesmo formato exportado por Zotero, Mendeley ou pelo pacote <code>RefManageR</code> em R. A formatação segue o estilo <strong>ABNT</strong>.</p>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<p>A produção abaixo reúne artigos, livros, capítulos e trabalhos apresentados pelos pesquisadores do grupo. Use os filtros por <strong>tipo</strong> e <strong>ano</strong>, a busca, ou a ordenação para localizar um título.</p>
+<div class="pub-legenda">
+  <span><i style="background:#1d5b78"></i>Artigo</span>
+  <span><i style="background:#12303f"></i>Livro</span>
+  <span><i style="background:#3a8fb7"></i>Capítulo</span>
+  <span><i style="background:#2f7d5b"></i>Trabalho</span>
 </div>
-<div class="callout-body-container">
-<p>As entradas atuais são <strong>exemplos ilustrativos</strong>. Substitua-as pela produção real do grupo mantendo o formato BibTeX.</p>
+<div id="listing-pubs" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-pubs-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-pubs'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Ordenar por</option>
+      <option value="index" data-direction="asc">Pré-selecionado</option>
+      <option value="listing-author" data-direction="asc">
+        Autor
+      </option>
+      <option value="listing-title" data-direction="asc">
+        Título
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filtro">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="QXJ0aWdvJTJDMjAyNg==" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2026-hartwell-democratization-and-regional-development-bank.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Democratization and regional development banks: a cross-continental comparative analysis
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Political Research Quarterly (no prelo)</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Christopher A. Hartwell, Anastassia Obydenkova, Vinícius Rodrigues Vieira
 </div>
 </div>
 </div>
-<hr>
-<section id="referências" class="level3">
-<h3 class="anchored" data-anchor-id="referências">Referências</h3>
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-sola2021democracia" class="csl-entry" role="listitem">
-Sola, Lourdes. 2021. <span>«Democracia de mercado emergente: o Brasil entre a agenda da globalização e a agenda democrática»</span>. <em>Revista de Economia Política</em> 41 (3): 455–78.
+</div></a>
 </div>
-<div id="ref-vieira2023epi" class="csl-entry" role="listitem">
-Vieira, Vinı́cius Rodrigues. 2023. <span>«Coalizões domésticas e política econômica externa em democracias de mercado emergente»</span>. <em>International Political Economy Review</em> 8 (1): 12–40.
+<div class="g-col-1" data-index="1" data-categories="TGl2cm8lMkMyMDI2" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2026-sadek-corrupcao-no-brasil-e-no-mundo-transparencia.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Corrupção no Brasil e no Mundo: transparência, política e análises
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGl2cm8='); return false;">Livro</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
+
 </div>
-<div id="ref-viola2022clima" class="csl-entry" role="listitem">
-Viola, Eduardo, e Larissa Basso. 2022. <span>«Governança climática global e a inserção do Brasil na transição de baixo carbono»</span>. Em <em>Variedades de Democracia e Descarbonização</em>. IEA-USP.
+<div class="card-text listing-description delink">
+<p>Almedina Brasil</p>
 </div>
-<div id="ref-whitehead2020emerging" class="csl-entry" role="listitem">
-Whitehead, Laurence, e Lourdes Sola. 2020. <em>Emerging Market Democracies: Power, Globalization and the Democratic Agenda</em>. Oxford University Press.
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Maria Tereza A. Sadek, Rita de Cássia Biason, Roberto Livianu
 </div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="QXJ0aWdvJTJDMjAyNg==" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2026-sadek-courts-and-economic-policy-disputes-evidence.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Courts and Economic Policy Disputes: evidence from the Brazilian Supreme Court
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>International Review of Law and Economics (em avaliação)</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Maria Tereza A. Sadek, Sérgio R. Vale, Luciana Yeung
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="VHJhYmFsaG8lMkMyMDI2" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2026-sola-emerging-middle-classes-and-political-discont.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Emerging Middle Classes and Political Discontent in Brazil: rethinking the economic and non-economic determinants of polarization
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('VHJhYmFsaG8='); return false;">Trabalho</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Working paper — Work-in-Progress 2026, IPSA</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Lourdes Sola, Sérgio R. Vale, Paulo C. da S. Flores
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="QXJ0aWdvJTJDMjAyNg==" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2026-vale-climate-sensitivity-of-electricity-demand-in.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Climate Sensitivity of Electricity Demand in a Tropical Emerging Economy: long-run evidence from Brazil
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>International Journal of Energy Economics and Policy, v. 16, n.&nbsp;5</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Sérgio R. Vale, Virginia Parente
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="Q2FwJUMzJUFEdHVsbyUyQzIwMjY=" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2026-vale-voice-without-exit-environmental-soft-power-a.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Voice Without Exit: environmental soft power and the limits of climate governance
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2FwJUMzJUFEdHVsbw=='); return false;">Capítulo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>In: Routledge Handbook of Power in International Relations. Routledge (aceito)</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Sérgio R. Vale, Larissa Basso
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="Q2FwJUMzJUFEdHVsbyUyQzIwMjY=" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2026-vieira-from-the-neoliberal-utilitarianism-to-the-sta.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+From the neoliberal utilitarianism to the state strikes back: international political economy and the fate of globalization in the next decades
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2FwJUMzJUFEdHVsbw=='); return false;">Capítulo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>In: Perspectives on Reglobalization. Springer</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Vinícius Rodrigues Vieira, Eduardo Viola
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="Q2FwJUMzJUFEdHVsbyUyQzIwMjY=" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2026-viola-a-politica-climatica-internacional-1992-2026.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A política climática internacional (1992–2026): do globalismo cooperativo à fragmentação geopolítica numa Terra acima de 1,5 °C
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2FwJUMzJUFEdHVsbw=='); return false;">Capítulo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>In: A integração do Brasil ao mundo no século XXI. CINDES</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Eduardo Viola
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="QXJ0aWdvJTJDMjAyNQ==" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2025-carneiro-institutional-complexity-and-the-crisis-of-th.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Institutional Complexity and the Crisis of the Multilateral System
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNQ=='); return false;">2025</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Conjuntura Global, v. 14, n.&nbsp;2</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Cristiane Lucena Carneiro
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="QXJ0aWdvJTJDMjAyNQ==" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2025-carneiro-la-relacion-bilateral-entre-brasil-y-estados.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+La relación bilateral entre Brasil y Estados Unidos
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNQ=='); return false;">2025</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Foreign Affairs Latinoamérica, v. 25, n.&nbsp;2</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Cristiane Lucena Carneiro
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="VHJhYmFsaG8lMkMyMDI1" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2025-marques-liberal-reforms-and-democracy-revisiting-the.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Liberal reforms and democracy: revisiting the incremental institutional building of the financial order in Brazil
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('VHJhYmFsaG8='); return false;">Trabalho</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNQ=='); return false;">2025</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Congresso Mundial da IPSA, Seul</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Moisés S. Marques
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="QXJ0aWdvJTJDMjAyNQ==" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2025-marques-tarifaco-para-o-brasil-entra-em-vigor-e-refor.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tarifaço para o Brasil entra em vigor e reforça o ‘Gangster Style’ da política externa de Trump
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNQ=='); return false;">2025</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>The Conversation</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Moisés S. Marques
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="Q2FwJUMzJUFEdHVsbyUyQzIwMjU=" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2025-pryck-obstruction-in-the-unfccc-and-the-ipcc.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Obstruction in the UNFCCC and the IPCC
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2FwJUMzJUFEdHVsbw=='); return false;">Capítulo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNQ=='); return false;">2025</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>In: Climate Obstruction: a global assessment. Oxford University Press</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Kari De Pryck, Eduardo Viola, Stefan C. Aykut, Larissa Basso
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="13" data-categories="Q2FwJUMzJUFEdHVsbyUyQzIwMjU=" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2025-sadek-poder-judiciario-no-brasil.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Poder Judiciário no Brasil
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2FwJUMzJUFEdHVsbw=='); return false;">Capítulo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNQ=='); return false;">2025</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>In: Estado de Direito e Três Poderes. Konrad Adenauer Stiftung</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Maria Tereza A. Sadek
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="14" data-categories="VHJhYmFsaG8lMkMyMDI1" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2025-sola-the-plural-dynamics-of-state-institutionalisa.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The plural dynamics of state institutionalisation in Brazil: the building blocks of the nation’s political structures
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('VHJhYmFsaG8='); return false;">Trabalho</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNQ=='); return false;">2025</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>SCRIPTS – Contestations of the Liberal Script, Working Paper</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Lourdes Sola, Jorge Caldeira
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="15" data-categories="QXJ0aWdvJTJDMjAyNQ==" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2025-vale-democracy-economic-growth-and-volatility-in-b.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Democracy, economic growth and volatility in Brazil: what is the causality?
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNQ=='); return false;">2025</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Revista Brasileira de Ciência Política, v. 44</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Sérgio R. Vale
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="16" data-categories="QXJ0aWdvJTJDMjAyNQ==" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2025-vieira-from-economic-to-structural-power-agential-ca.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+From economic to structural power: agential capitalism, the Belt and Road Initiative, and China’s economic statecraft after the 2008 crisis
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNQ=='); return false;">2025</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Journal of Political Power, v. 18, n.&nbsp;1</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Vinícius Rodrigues Vieira
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="17" data-categories="Q2FwJUMzJUFEdHVsbyUyQzIwMjU=" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2025-vieira-the-expansion-of-the-brics-and-the-future-of.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The expansion of the BRICS and the future of the world order
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2FwJUMzJUFEdHVsbw=='); return false;">Capítulo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNQ=='); return false;">2025</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>In: The Great Decoupling: a new global order/disorder? Palgrave</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Vinícius Rodrigues Vieira
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="18" data-categories="Q2FwJUMzJUFEdHVsbyUyQzIwMjU=" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2025-viola-obstruction-in-the-unfccc-and-the-intergovern.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Obstruction in the UNFCCC and the Intergovernmental Panel on Climate Change
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2FwJUMzJUFEdHVsbw=='); return false;">Capítulo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNQ=='); return false;">2025</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>In: Climate Obstruction: a global assessment. Oxford University Press</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Eduardo Viola
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="19" data-categories="QXJ0aWdvJTJDMjAyNQ==" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2025-yeung-judicial-review-and-economic-governance-evide.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Judicial Review and Economic Governance: evidence from the Brazilian Supreme Court
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNQ=='); return false;">2025</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>International Review of Law and Economics (submetido)</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Luciana Yeung
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="20" data-categories="Q2FwJUMzJUFEdHVsbyUyQzIwMjQ=" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2024-basso-energy-transition-in-brazil-challenges-to-ach.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Energy transition in Brazil: challenges to achieve the SDG 7
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2FwJUMzJUFEdHVsbw=='); return false;">Capítulo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>In: The quest for the Sustainable Development Goals. Springer</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Larissa Basso
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="21" data-categories="QXJ0aWdvJTJDMjAyNA==" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2024-basso-the-political-economy-of-climate-change-mitig.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Political Economy of Climate Change Mitigation in Argentina, Brazil and Peru
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Iberoamericana – Nordic Journal of Latin American and Caribbean Studies, v. 53, n.&nbsp;1</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Larissa Basso
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="22" data-categories="QXJ0aWdvJTJDMjAyNA==" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2024-basso-tracing-climate-commitment-in-brazil-and-sout.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tracing climate commitment in Brazil and South Africa, 2000–2020
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Mural Internacional, v. 15</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Larissa Basso
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="23" data-categories="QXJ0aWdvJTJDMjAyNA==" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2024-inoue-indigenous-and-traditional-communities-ways-o.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Indigenous and traditional communities’ ways of knowing and being in planetary justice
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Environmental Politics</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Cristina Yumie Aoki Inoue, Thais Lemos Ribeiro, Verônica Korber Gonçalves, Larissa Basso, Paula Franco Moreira
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="24" data-categories="QXJ0aWdvJTJDMjAyNA==" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2024-pereira-from-protagonist-to-laggard-from-pariah-to-ph.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+From Protagonist to Laggard, from Pariah to Phoenix: emergence, decline, and re-emergence of Brazilian climate change policy, 2003–2023
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Latin American Policy, v. 15</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Joana Castro Pereira, Eduardo Viola
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="25" data-categories="TGl2cm8lMkMyMDI0" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2024-prantl-building-capabilities-for-earth-system-govern.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Building Capabilities for Earth System Governance
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGl2cm8='); return false;">Livro</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Cambridge Elements in Earth System Governance, v. 1</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Jochen Prantl, Ana Flávia Barros-Platiau, Cristina Inoue, Joana Castro Pereira, Eduardo Viola
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="26" data-categories="QXJ0aWdvJTJDMjAyNA==" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2024-sadek-resolucao-do-cnj-se-cumpre-a-ineficacia-da-po.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Resolução do CNJ se cumpre? A ineficácia da política de cotas raciais no Judiciário
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Revista Estudos Institucionais, v. 10, n.&nbsp;2</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Maria Tereza A. Sadek, Fabiana Luci de Oliveira
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="27" data-categories="QXJ0aWdvJTJDMjAyNA==" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2024-sola-federalism-and-public-health-governance-the-r.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Federalism and Public Health Governance: the role of state-level horizontal coordination during responses to COVID-19 in Brazil
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Desarrollo Económico, v. 64, n.&nbsp;242</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Lourdes Sola, Cristiane Lucena Carneiro, Vinícius Rodrigues Vieira
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="28" data-categories="QXJ0aWdvJTJDMjAyNA==" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2024-vadlamannati-calling-the-shots-through-health-diplomacy-ch.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Calling the shots through health diplomacy: China’s worldwide distribution of anti-COVID vaccines and the international order
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>International Interactions, v. 50, n.&nbsp;1</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Krishna C. Vadlamannati, Vinícius Rodrigues Vieira, T. Song
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="29" data-categories="TGl2cm8lMkMyMDI0" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2024-yeung-o-judiciario-brasileiro-uma-analise-empirica.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+O Judiciário Brasileiro: uma análise empírica e econômica
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGl2cm8='); return false;">Livro</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Foco</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Luciana Yeung
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="30" data-categories="QXJ0aWdvJTJDMjAyMw==" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2023-carneiro-review-article-global-governance-in-a-complex.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Review Article: Global Governance in a Complex World
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyMw=='); return false;">2023</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Frontiers in Law, v. 2</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Cristiane Lucena Carneiro
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="31" data-categories="TGl2cm8lMkMyMDIz" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2023-sola-ideias-economicas-decisoes-politicas-tecnicos.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ideias Econômicas, Decisões Políticas: técnicos e políticos no governo da economia (2ª ed.&nbsp;ampliada)
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGl2cm8='); return false;">Livro</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyMw=='); return false;">2023</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>EDUSP</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Lourdes Sola
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="32" data-categories="QXJ0aWdvJTJDMjAyMw==" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2023-vale-impact-of-economic-sanctions-on-net-commodity.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Impact of economic sanctions on net commodity-producing and net commodity-consuming countries
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyMw=='); return false;">2023</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Revista Brasileira de Política Internacional, v. 66</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Sérgio R. Vale, Eduardo Viola
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="33" data-categories="TGl2cm8lMkMyMDIz" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2023-vale-travessia-sem-fim-economia-e-politica-em-tran.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Travessia sem fim: economia e política em transformação no mundo e no Brasil
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGl2cm8='); return false;">Livro</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyMw=='); return false;">2023</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Appris</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Sérgio R. Vale
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="34" data-categories="TGl2cm8lMkMyMDIz" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2023-vieira-shaping-nations-and-markets-identity-capital.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Shaping Nations and Markets: identity capital, trade, and the populist rage
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGl2cm8='); return false;">Livro</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyMw=='); return false;">2023</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Routledge</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Vinícius Rodrigues Vieira
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="35" data-categories="QXJ0aWdvJTJDMjAyMg==" data-listing-date-sort="1640995200000" data-listing-file-modified-sort="1790079031805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publicacoes/itens/2022-vale-impact-of-environmental-quality-indicators-on.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Impact of environmental quality indicators on soft power: a few empirical estimates
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWdv'); return false;">Artigo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyMg=='); return false;">2022</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Journal of Political Power, v. 15</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Sérgio R. Vale, Moisés S. Marques
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">Nenhum item correspondente</div>
 </div>
 
 
-</section>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -824,6 +1770,8 @@ Whitehead, Laurence, e Lourdes Sola. 2020. <em>Emerging Market Democracies: Powe
 </div>
   </div>
 </footer>
+<script src="links.js"></script>
+<script src="publicacoes.js"></script>
 
 
 
