@@ -1,0 +1,15 @@
+---
+title: 'Annual Meeting da Midwest Political Science Association'
+date: 2026-01-01
+quando: '2026'
+status: ''
+local: 'Chicago, EUA'
+tipo: 'Apresentação de trabalho'
+categories: ['Apresentação de trabalho']
+membros: 'Cristiane Lucena Carneiro'
+description: '“Brazil in the Multilateral Trading System: Between Domestic Pressures and Global Shifts”, com Luiz Antonio Camilher.'
+---
+
+Cristiane Lucena Carneiro
+
+“Brazil in the Multilateral Trading System: Between Domestic Pressures and Global Shifts”, com Luiz Antonio Camilher.

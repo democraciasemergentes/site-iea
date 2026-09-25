@@ -1,0 +1,15 @@
+---
+title: 'Workshop do RC51 com o Comitê de Poder Político da IPSA'
+date: 2024-05-01
+quando: 'mai. 2024'
+status: ''
+local: 'Universidade Lusíada, Portugal'
+tipo: 'Organização de painéis e eventos'
+categories: ['Organização de painéis e eventos']
+membros: 'Eduardo Viola e Vinícius Rodrigues Vieira'
+description: 'As apresentações deram origem ao volume “Political Power and Crisis” (Routledge, 2025), editado por Giulio Gallarotti.'
+---
+
+Eduardo Viola e Vinícius Rodrigues Vieira
+
+As apresentações deram origem ao volume “Political Power and Crisis” (Routledge, 2025), editado por Giulio Gallarotti.

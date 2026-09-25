@@ -1,0 +1,15 @@
+---
+title: 'Annual Conference da RedGob'
+date: 2024-11-06
+quando: '6–9 nov. 2024'
+status: ''
+local: 'Oxford, Reino Unido'
+tipo: 'Apresentação de trabalho'
+categories: ['Apresentação de trabalho']
+membros: 'Lourdes Sola e Sérgio Vale'
+description: '“Statecrafting cooperation between fiscal and monetary institutions in Brazil”.'
+---
+
+Lourdes Sola e Sérgio Vale
+
+“Statecrafting cooperation between fiscal and monetary institutions in Brazil”.

@@ -1,0 +1,15 @@
+---
+title: 'Annual Conference da Diplomatic Studies Section (ISA)'
+date: 2025-01-02
+quando: '2025'
+status: ''
+local: 'São Paulo'
+tipo: 'Apresentação de trabalho'
+categories: ['Apresentação de trabalho']
+membros: 'Cristiane Lucena Carneiro'
+description: '“Brazil in the Multilateral Trading System: Between Domestic Pressures and Global Shifts”, com Luiz Antonio Camilher.'
+---
+
+Cristiane Lucena Carneiro
+
+“Brazil in the Multilateral Trading System: Between Domestic Pressures and Global Shifts”, com Luiz Antonio Camilher.

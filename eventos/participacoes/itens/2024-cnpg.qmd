@@ -1,0 +1,15 @@
+---
+title: 'I Encontro Nacional dos Procuradores-Gerais do Ministério Público'
+date: 2024-09-02
+quando: '2–3 set. 2024'
+status: ''
+local: 'CNPG / CEBEPEJ'
+tipo: 'Mesa-redonda e palestra'
+categories: ['Mesa-redonda e palestra']
+membros: 'Maria Tereza Sadek'
+description: ''
+---
+
+Maria Tereza Sadek
+
+

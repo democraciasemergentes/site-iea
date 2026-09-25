@@ -1,0 +1,15 @@
+---
+title: '14º Encontro da Associação Brasileira de Ciência Política'
+date: 2024-08-01
+quando: '1–8 ago. 2024'
+status: ''
+local: 'UFBA, Salvador'
+tipo: 'Apresentação de trabalho'
+categories: ['Apresentação de trabalho']
+membros: 'Larissa Basso'
+description: '“O que explica a meta brasileira de redução de emissões perante o regime internacional do clima em 2009?”.'
+---
+
+Larissa Basso
+
+“O que explica a meta brasileira de redução de emissões perante o regime internacional do clima em 2009?”.

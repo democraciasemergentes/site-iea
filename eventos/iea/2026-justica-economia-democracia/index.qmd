@@ -1,0 +1,34 @@
+---
+title: 'Justiça, Economia e Agenda Democrática no Brasil'
+date: 2026-04-29
+description: 'Com Luciano Benetti Timm e Ivar Alberto Hartmann.'
+categories: ['Justiça e instituições']
+image: 'https://img.youtube.com/vi/bbMmh02ZB1o/hqdefault.jpg'
+horario: '14h às 17h'
+participantes: 'Luciano Benetti Timm e Ivar Alberto Hartmann'
+video: 'https://youtu.be/bbMmh02ZB1o'
+pagina-iea: 'https://www.iea.usp.br/eventos/justica-economia-democratica-brasil-1'
+title-block-banner: false
+language:
+  title-block-published: 'Realizado em'
+css: ../../eventos.css
+---
+
+{{< video https://www.youtube.com/embed/bbMmh02ZB1o >}}
+
+```{=html}
+<dl class="evento-ficha">
+<dt>Quando</dt><dd>29/04/2026, 14h às 17h</dd>
+<dt>Onde</dt><dd>Instituto de Estudos Avançados da USP</dd>
+<dt>Exposição</dt><dd>Luciano Benetti Timm (FEAC-USP)<br>Ivar Alberto Hartmann (Insper)</dd>
+<dt>Moderação</dt><dd>Maria Tereza Aina Sadek (FFLCH-USP e IEA-USP)<br>Luciana Yeung (Insper e IEA-USP)</dd>
+</dl>
+```
+
+```{=html}
+<p class="evento-acoes">
+<a class="btn-evento" href="https://www.iea.usp.br/eventos/justica-economia-democratica-brasil-1">Página do evento no IEA</a>
+<a class="btn-evento secundario" href="https://youtu.be/bbMmh02ZB1o">Assistir no YouTube</a>
+<a class="btn-evento secundario" href="../">Todos os seminários</a>
+</p>
+```

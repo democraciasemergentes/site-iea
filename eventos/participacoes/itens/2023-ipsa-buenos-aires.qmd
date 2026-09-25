@@ -1,0 +1,15 @@
+---
+title: '27º Congresso Mundial da IPSA'
+date: 2023-07-11
+quando: '11–16 jul. 2023'
+status: ''
+local: 'Buenos Aires, Argentina'
+tipo: 'Organização de painéis e eventos'
+categories: ['Organização de painéis e eventos']
+membros: 'Vinícius Rodrigues Vieira, Lourdes Sola, Sérgio Vale e Cristiane Lucena Carneiro'
+description: 'Programa do RC51 com 13 painéis e mesas, coorganizado por Vinícius Rodrigues Vieira e Laurence Whitehead. Lourdes Sola integrou o Conselho Deliberativo e apresentou com Sérgio Vale “Reframing national ESG performance”; Cristiane Lucena apresentou “Brazil as an Emerging Market Democracy and the Multilateral Trading System”.'
+---
+
+Vinícius Rodrigues Vieira, Lourdes Sola, Sérgio Vale e Cristiane Lucena Carneiro
+
+Programa do RC51 com 13 painéis e mesas, coorganizado por Vinícius Rodrigues Vieira e Laurence Whitehead. Lourdes Sola integrou o Conselho Deliberativo e apresentou com Sérgio Vale “Reframing national ESG performance”; Cristiane Lucena apresentou “Brazil as an Emerging Market Democracy and the Multilateral Trading System”.

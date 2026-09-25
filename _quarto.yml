@@ -2,10 +2,10 @@ project:
   type: website
   output-dir: _site
   render:
-    - "*.qmd"
+    - "*.qmd"          # inclui subpastas; deixa de fora README.md e LEIA-ME
 
 website:
-  title: "Democracias de Mercado Emergentes"
+  title: "Democracias de mercado emergente"
   description: >-
     Grupo de Pesquisa do Instituto de Estudos Avançados da USP dedicado à
     Economia Política Internacional, às Variedades de Democracia e à
@@ -15,7 +15,7 @@ website:
 
   navbar:
     logo: images/logo.png
-    logo-alt: "IEA-USP · Grupo EPI"
+    logo-alt: "Democracias de mercado emergente · IEA-USP"
     title: false
     collapse-below: lg
     left:
@@ -29,6 +29,12 @@ website:
         href: linhas/index.qmd
       - text: "Publicações"
         href: publicacoes/index.qmd
+      - text: "Eventos"
+        menu:
+          - text: "Seminários no IEA"
+            href: eventos/iea/index.qmd
+          - text: "Congressos e participações"
+            href: eventos/participacoes/index.qmd
       - text: "Notícias"
         href: posts/index.qmd
     right:
@@ -40,18 +46,17 @@ website:
         aria-label: Contato
       - text: "IEA-USP"
         href: https://www.iea.usp.br
-        target: _blank
 
   page-footer:
     background: light
     left: |
-      **Grupo de Pesquisa Democracias de mercado emergentes**<br>
+      **Grupo de Pesquisa Democracias de mercado emergente**<br>
       Instituto de Estudos Avançados da Universidade de São Paulo (IEA-USP)
     center: |
-      Projeto FAPESP 2019/16970-5<br>
+      Projeto Temático FAPESP 2019/16970-5<br>
       Coordenação: Lourdes Sola · Eduardo Viola
     right: |
-      © 2026 DME <br>
+      © 2026 Democracias de mercado emergente<br>
       Construído com [Quarto](https://quarto.org)
 
   search:
@@ -72,6 +77,3 @@ format:
     smooth-scroll: true
     link-external-newwindow: true
     link-external-icon: false
-
-execute:
-  freeze: auto

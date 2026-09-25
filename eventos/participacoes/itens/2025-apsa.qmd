@@ -1,0 +1,15 @@
+---
+title: 'Annual Meeting da American Political Science Association'
+date: 2025-01-03
+quando: '2025'
+status: ''
+local: 'EUA'
+tipo: 'Mesa-redonda e palestra'
+categories: ['Mesa-redonda e palestra']
+membros: 'Cristiane Lucena Carneiro'
+description: 'Mesa “Contestations of the Liberal Script in a Global Perspective”.'
+---
+
+Cristiane Lucena Carneiro
+
+Mesa “Contestations of the Liberal Script in a Global Perspective”.

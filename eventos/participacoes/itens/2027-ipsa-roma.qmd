@@ -1,0 +1,15 @@
+---
+title: '29º Congresso Mundial da IPSA'
+date: 2027-07-01
+quando: '2027'
+status: 'previsto'
+local: 'Roma, Itália'
+tipo: 'Organização de painéis e eventos'
+categories: ['Organização de painéis e eventos']
+membros: 'Eduardo Viola e Vinícius Rodrigues Vieira'
+description: 'Programação dos painéis do RC51 (Economia Política Internacional), em preparação desde junho de 2026.'
+---
+
+Eduardo Viola e Vinícius Rodrigues Vieira
+
+Programação dos painéis do RC51 (Economia Política Internacional), em preparação desde junho de 2026.

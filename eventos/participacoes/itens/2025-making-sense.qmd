@@ -1,0 +1,15 @@
+---
+title: 'Making sense of where we are'
+date: 2025-12-15
+quando: '15 dez. 2025'
+status: ''
+local: 'Faculdade de Direito da USP'
+tipo: 'Mesa-redonda e palestra'
+categories: ['Mesa-redonda e palestra']
+membros: 'Lourdes Sola'
+description: 'Com Andrew Hurrell (Oxford University) e Celso Lafer.'
+---
+
+Lourdes Sola
+
+Com Andrew Hurrell (Oxford University) e Celso Lafer.

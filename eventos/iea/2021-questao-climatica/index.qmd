@@ -1,0 +1,34 @@
+---
+title: 'A Questão Climática pelas Lentes da Ciência Política'
+date: 2021-10-05
+description: 'Com Eduardo Viola e Sergio Abranches.'
+categories: ['Clima e descarbonização']
+image: 'https://img.youtube.com/vi/Od5Epi17L40/hqdefault.jpg'
+horario: '15h às 17h30'
+participantes: 'Eduardo Viola e Sergio Abranches'
+video: 'https://youtu.be/Od5Epi17L40'
+pagina-iea: 'https://www.iea.usp.br/eventos/lentes-da-ciencia-politica'
+title-block-banner: false
+language:
+  title-block-published: 'Realizado em'
+css: ../../eventos.css
+---
+
+{{< video https://www.youtube.com/embed/Od5Epi17L40 >}}
+
+```{=html}
+<dl class="evento-ficha">
+<dt>Quando</dt><dd>05/10/2021, 15h às 17h30</dd>
+<dt>Onde</dt><dd>Instituto de Estudos Avançados da USP</dd>
+<dt>Exposição</dt><dd>Eduardo Viola (IEA-USP, FGV e UnB)<br>Sergio Abranches (SócioDinâmica Aplicada)</dd>
+<dt>Moderação</dt><dd>Lourdes Sola (NUPPS e IEA-USP)</dd>
+</dl>
+```
+
+```{=html}
+<p class="evento-acoes">
+<a class="btn-evento" href="https://www.iea.usp.br/eventos/lentes-da-ciencia-politica">Página do evento no IEA</a>
+<a class="btn-evento secundario" href="https://youtu.be/Od5Epi17L40">Assistir no YouTube</a>
+<a class="btn-evento secundario" href="../">Todos os seminários</a>
+</p>
+```

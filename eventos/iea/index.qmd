@@ -1,0 +1,20 @@
+---
+title: "Seminários no IEA"
+subtitle: "Encontros organizados pelo grupo no Instituto de Estudos Avançados da USP, com vídeo na íntegra"
+page-layout: full
+title-block-banner: false
+css: ../eventos.css
+include-after-body: ../eventos-js.html
+listing:
+  id: seminarios-iea
+  contents: "*/index.qmd"
+  sort: "date desc"
+  template: ../seminarios.ejs
+  fields: [title, date, image, description, categories, horario, participantes, video, pagina-iea]
+  date-format: "D MMM YYYY"
+  categories: true
+  filter-ui: true
+  sort-ui: false
+  page-size: 12
+  feed: true
+---

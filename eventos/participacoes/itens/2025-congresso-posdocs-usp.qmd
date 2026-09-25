@@ -1,0 +1,15 @@
+---
+title: 'II Congresso de Pós-Doutorandos da USP'
+date: 2025-09-15
+quando: '15–17 set. 2025'
+status: ''
+local: 'Centro de Difusão Internacional da USP'
+tipo: 'Apresentação de trabalho'
+categories: ['Apresentação de trabalho']
+membros: 'Larissa Basso'
+description: '“The causal process of an international commitment…”.'
+---
+
+Larissa Basso
+
+“The causal process of an international commitment…”.

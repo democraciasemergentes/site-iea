@@ -1,0 +1,17 @@
+<ol class="list linha-tempo">
+<% for (const item of items) { %>
+<li class="lt-item<% if (item.status === 'previsto') { %> previsto<% } %>" <%= metadataAttrs(item) %>>
+<div class="lt-ano"><%= item.date %></div>
+<div class="lt-conteudo">
+<p class="lt-quando">
+<% if (item.status === 'previsto') { %><span class="lt-selo">Em preparação</span><% } %>
+<%= item.quando %><% if (item.local) { %> · <span class="listing-local"><%= item.local %></span><% } %>
+</p>
+<h3 class="lt-titulo listing-title"><%= item.title %></h3>
+<% if (item.membros) { %><p class="lt-membros listing-membros"><%= item.membros %></p><% } %>
+<% if (item.description) { %><p class="lt-detalhe listing-description"><%= item.description %></p><% } %>
+<span class="lt-tipo listing-category listing-tipo" onclick="window.quartoListingCategory('<%- utils.b64encode(item.tipo) %>'); return false;"><%= item.tipo %></span>
+</div>
+</li>
+<% } %>
+</ol>

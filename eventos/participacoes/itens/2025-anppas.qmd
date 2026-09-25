@@ -1,0 +1,15 @@
+---
+title: 'XII Encontro Nacional da ANPPAS'
+date: 2025-09-01
+quando: '1–4 set. 2025'
+status: ''
+local: 'USP, São Paulo'
+tipo: 'Apresentação de trabalho'
+categories: ['Apresentação de trabalho']
+membros: 'Larissa Basso'
+description: '“Uma moldura para medir o alinhamento com a descarbonização”.'
+---
+
+Larissa Basso
+
+“Uma moldura para medir o alinhamento com a descarbonização”.

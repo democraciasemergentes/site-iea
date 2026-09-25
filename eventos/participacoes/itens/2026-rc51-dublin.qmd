@@ -1,0 +1,15 @@
+---
+title: 'Workshop do RC51: Geoeconomia e Desenvolvimento'
+date: 2026-07-01
+quando: 'jul. 2026'
+status: ''
+local: 'University College Dublin, Irlanda'
+tipo: 'Organização de painéis e eventos'
+categories: ['Organização de painéis e eventos']
+membros: 'Vinícius Rodrigues Vieira'
+description: 'Coorganização, com apoio de Krishna Vadlamannati.'
+---
+
+Vinícius Rodrigues Vieira
+
+Coorganização, com apoio de Krishna Vadlamannati.

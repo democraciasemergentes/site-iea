@@ -1,0 +1,15 @@
+---
+title: 'Conferência ISA/ABRI'
+date: 2025-07-21
+quando: '21–24 jul. 2025'
+status: ''
+local: 'USP, São Paulo'
+tipo: 'Mesa-redonda e palestra'
+categories: ['Mesa-redonda e palestra']
+membros: 'Larissa Basso'
+description: 'Minicurso sobre política climática brasileira e coordenação da mesa “Quais as perspectivas para a COP30 diante dos desafios da agenda global?”.'
+---
+
+Larissa Basso
+
+Minicurso sobre política climática brasileira e coordenação da mesa “Quais as perspectivas para a COP30 diante dos desafios da agenda global?”.

@@ -1,0 +1,15 @@
+---
+title: 'Seminário de Pesquisa em Relações Internacionais da FGV'
+date: 2024-05-14
+quando: '14 mai. 2024'
+status: ''
+local: 'FGV, São Paulo'
+tipo: 'Apresentação de trabalho'
+categories: ['Apresentação de trabalho']
+membros: 'Larissa Basso'
+description: '“Política climática no governo Lula 3”.'
+---
+
+Larissa Basso
+
+“Política climática no governo Lula 3”.

@@ -1,0 +1,15 @@
+---
+title: 'Conferência de 75 anos da IPSA: Democratization and Autocratization'
+date: 2024-01-03
+quando: '2024'
+status: ''
+local: ''
+tipo: 'Mesa-redonda e palestra'
+categories: ['Mesa-redonda e palestra']
+membros: 'Lourdes Sola'
+description: 'Mesa “Past-Presidents Roundtable: Reflections on Leadership” e paper “Reassessing Central Bank Doctrine and Practices as Paradigms Shift”, com Laurence Whitehead.'
+---
+
+Lourdes Sola
+
+Mesa “Past-Presidents Roundtable: Reflections on Leadership” e paper “Reassessing Central Bank Doctrine and Practices as Paradigms Shift”, com Laurence Whitehead.

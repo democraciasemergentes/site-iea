@@ -1,0 +1,34 @@
+---
+title: 'A Nova Geopolítica Global e o Lugar do Brasil'
+date: 2024-10-02
+description: 'Com Cristiane Lucena Carneiro, Matias Spektor, Oliver Stuenkel e Eduardo Viola.'
+categories: ['Geopolítica e geoeconomia']
+image: 'https://img.youtube.com/vi/WArrpktbjW8/hqdefault.jpg'
+horario: '14h às 17h30'
+participantes: 'Cristiane Lucena Carneiro, Matias Spektor, Oliver Stuenkel e Eduardo Viola'
+video: 'https://youtu.be/WArrpktbjW8'
+pagina-iea: 'https://www.iea.usp.br/eventos/geopolitica-global-lugar-brasil'
+title-block-banner: false
+language:
+  title-block-published: 'Realizado em'
+css: ../../eventos.css
+---
+
+{{< video https://www.youtube.com/embed/WArrpktbjW8 >}}
+
+```{=html}
+<dl class="evento-ficha">
+<dt>Quando</dt><dd>02/10/2024, 14h às 17h30</dd>
+<dt>Onde</dt><dd>Instituto de Estudos Avançados da USP</dd>
+<dt>Exposição</dt><dd>Cristiane Lucena Carneiro (IRI-USP)<br>Matias Spektor (FGV-RI)<br>Oliver Stuenkel (FGV-RI)<br>Eduardo Viola (FGV-RI e IEA-USP)</dd>
+<dt>Moderação</dt><dd>Lourdes Sola (IEA-USP)</dd>
+</dl>
+```
+
+```{=html}
+<p class="evento-acoes">
+<a class="btn-evento" href="https://www.iea.usp.br/eventos/geopolitica-global-lugar-brasil">Página do evento no IEA</a>
+<a class="btn-evento secundario" href="https://youtu.be/WArrpktbjW8">Assistir no YouTube</a>
+<a class="btn-evento secundario" href="../">Todos os seminários</a>
+</p>
+```

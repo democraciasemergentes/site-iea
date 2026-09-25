@@ -1,0 +1,15 @@
+---
+title: 'Diálogos de Gobernanza Global'
+date: 2024-01-01
+quando: '2024'
+status: ''
+local: 'Universidad Austral, Argentina'
+tipo: 'Mesa-redonda e palestra'
+categories: ['Mesa-redonda e palestra']
+membros: 'Cristiane Lucena Carneiro'
+description: '“Institutional Complexity and the Sustainable Development Goals”.'
+---
+
+Cristiane Lucena Carneiro
+
+“Institutional Complexity and the Sustainable Development Goals”.

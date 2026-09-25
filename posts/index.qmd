@@ -1,6 +1,8 @@
 ---
-title: "Notícias e Destaques"
-subtitle: "Eventos, aparições na mídia e novidades do grupo"
+title: "Notícias"
+subtitle: "Publicações, projetos, prêmios e presença do grupo na imprensa"
+page-layout: full
+title-block-banner: false
 listing:
   contents: "*/index.qmd"
   sort: "date desc"
@@ -8,8 +10,6 @@ listing:
   categories: true
   sort-ui: false
   filter-ui: true
-  fields: [image, date, title, description, categories, reading-time]
+  fields: [image, date, title, description, categories]
   feed: true
-page-layout: full
-title-block-banner: false
 ---

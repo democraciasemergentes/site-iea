@@ -1,0 +1,15 @@
+---
+title: 'Work-in-Progress 2026 da IPSA'
+date: 2026-07-15
+quando: '15–17 jul. 2026'
+status: ''
+local: 'Online'
+tipo: 'Apresentação de trabalho'
+categories: ['Apresentação de trabalho']
+membros: 'Lourdes Sola, Sérgio Vale e Paulo Flores'
+description: 'Working paper “Emerging Middle Classes and Political Discontent in Brazil: rethinking the economic and non-economic determinants of polarization”.'
+---
+
+Lourdes Sola, Sérgio Vale e Paulo Flores
+
+Working paper “Emerging Middle Classes and Political Discontent in Brazil: rethinking the economic and non-economic determinants of polarization”.

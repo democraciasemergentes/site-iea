@@ -1,0 +1,33 @@
+---
+title: 'Desenvolvimentismo Decadente: a Economia Política do Brasil Democrático'
+date: 2021-03-03
+description: 'Com Matthew Taylor, Lourdes Sola e Eduardo Viola.'
+categories: ['Economia política', 'Lançamento de livro']
+image: 'https://img.youtube.com/vi/a5_tdAb0QQo/hqdefault.jpg'
+horario: '10h às 12h'
+participantes: 'Matthew Taylor, Lourdes Sola e Eduardo Viola'
+video: 'https://youtu.be/a5_tdAb0QQo'
+pagina-iea: 'https://www.iea.usp.br/eventos/desenvolvimentismo-decadente'
+title-block-banner: false
+language:
+  title-block-published: 'Realizado em'
+css: ../../eventos.css
+---
+
+{{< video https://www.youtube.com/embed/a5_tdAb0QQo >}}
+
+```{=html}
+<dl class="evento-ficha">
+<dt>Quando</dt><dd>03/03/2021, 10h às 12h</dd>
+<dt>Onde</dt><dd>Instituto de Estudos Avançados da USP</dd>
+<dt>Exposição</dt><dd>Matthew Taylor (American University)<br>Lourdes Sola (DCP-USP, IPSA e IEA-USP)<br>Eduardo Viola (UnB e IEA-USP)</dd>
+</dl>
+```
+
+```{=html}
+<p class="evento-acoes">
+<a class="btn-evento" href="https://www.iea.usp.br/eventos/desenvolvimentismo-decadente">Página do evento no IEA</a>
+<a class="btn-evento secundario" href="https://youtu.be/a5_tdAb0QQo">Assistir no YouTube</a>
+<a class="btn-evento secundario" href="../">Todos os seminários</a>
+</p>
+```

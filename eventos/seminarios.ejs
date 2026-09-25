@@ -1,0 +1,22 @@
+<div class="list sem-grid">
+<% for (const item of items) { %>
+<article class="sem-card" <%= metadataAttrs(item) %>>
+<a class="sem-capa" href="<%- item.path %>" aria-label="<%= item.title %>">
+<% if (item.image) { %><img src="<%- item.image %>" alt="" loading="lazy" onerror="this.remove()"><% } %>
+<span class="sem-play" aria-hidden="true"></span>
+</a>
+<div class="sem-corpo">
+<p class="sem-quando listing-date"><%= item.date %><% if (item.horario) { %> · <%= item.horario %><% } %></p>
+<h3 class="sem-titulo listing-title"><a href="<%- item.path %>"><%= item.title %></a></h3>
+<% if (item.participantes) { %><p class="sem-pessoas listing-participantes"><%= item.participantes %></p><% } %>
+<% if (item.categories) { %>
+<div class="sem-temas listing-categories">
+<% for (const c of item.categories) { %>
+<span class="listing-category sem-tema" onclick="window.quartoListingCategory('<%- utils.b64encode(c) %>'); return false;"><%= c %></span>
+<% } %>
+</div>
+<% } %>
+</div>
+</article>
+<% } %>
+</div>

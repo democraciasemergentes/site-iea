@@ -1,0 +1,15 @@
+---
+title: 'Encontro Mundial do Setor Financeiro (OIT)'
+date: 2024-06-12
+quando: '12 jun. 2024'
+status: ''
+local: 'Genebra, Suíça'
+tipo: 'Mesa-redonda e palestra'
+categories: ['Mesa-redonda e palestra']
+membros: 'Moisés Marques'
+description: 'Debatedor em “Mudanças no Sistema Financeiro Global e o papel da Regulação”.'
+---
+
+Moisés Marques
+
+Debatedor em “Mudanças no Sistema Financeiro Global e o papel da Regulação”.

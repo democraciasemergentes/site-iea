@@ -1,0 +1,34 @@
+---
+title: 'Shaping Nations and Markets: Identity Capital, Trade and the Populist Rage'
+date: 2023-10-16
+description: 'Com Vinícius Rodrigues Vieira.'
+categories: ['Economia política', 'Lançamento de livro']
+image: 'https://img.youtube.com/vi/FGE2ZQZTfs4/hqdefault.jpg'
+horario: '10h30 às 12h'
+participantes: 'Vinícius Rodrigues Vieira'
+video: 'https://youtu.be/FGE2ZQZTfs4'
+pagina-iea: 'https://www.iea.usp.br/eventos/lancamento-shaping-nations-markets-identity'
+title-block-banner: false
+language:
+  title-block-published: 'Realizado em'
+css: ../../eventos.css
+---
+
+{{< video https://www.youtube.com/embed/FGE2ZQZTfs4 >}}
+
+```{=html}
+<dl class="evento-ficha">
+<dt>Quando</dt><dd>16/10/2023, 10h30 às 12h</dd>
+<dt>Onde</dt><dd>Instituto de Estudos Avançados da USP</dd>
+<dt>Exposição</dt><dd>Vinícius Rodrigues Vieira (FAAP)</dd>
+<dt>Moderação</dt><dd>Cristiane Lucena (IRI-USP)</dd>
+</dl>
+```
+
+```{=html}
+<p class="evento-acoes">
+<a class="btn-evento" href="https://www.iea.usp.br/eventos/lancamento-shaping-nations-markets-identity">Página do evento no IEA</a>
+<a class="btn-evento secundario" href="https://youtu.be/FGE2ZQZTfs4">Assistir no YouTube</a>
+<a class="btn-evento secundario" href="../">Todos os seminários</a>
+</p>
+```

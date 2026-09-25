@@ -1,0 +1,15 @@
+---
+title: 'O Brasil que saiu das urnas'
+date: 2024-10-16
+quando: '16 out. 2024'
+status: ''
+local: 'FESPSP, São Paulo'
+tipo: 'Organização de painéis e eventos'
+categories: ['Organização de painéis e eventos']
+membros: 'Moisés Marques'
+description: 'Coorganização com Aldo Fornazieri.'
+---
+
+Moisés Marques
+
+Coorganização com Aldo Fornazieri.

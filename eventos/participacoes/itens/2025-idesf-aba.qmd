@@ -1,0 +1,15 @@
+---
+title: 'Congresso Internacional IDESF / American Bar Association'
+date: 2025-04-10
+quando: '10 abr. 2025'
+status: ''
+local: ''
+tipo: 'Mesa-redonda e palestra'
+categories: ['Mesa-redonda e palestra']
+membros: 'Maria Tereza Sadek'
+description: '“Combate à corrupção: desafios”.'
+---
+
+Maria Tereza Sadek
+
+“Combate à corrupção: desafios”.

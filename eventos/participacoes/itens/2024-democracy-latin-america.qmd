@@ -1,0 +1,15 @@
+---
+title: 'Democracy in Latin America: Regression or Resilience?'
+date: 2024-01-02
+quando: '2024'
+status: ''
+local: 'IEA-USP, com o grupo Qualidade da Democracia'
+tipo: 'Mesa-redonda e palestra'
+categories: ['Mesa-redonda e palestra']
+membros: 'Lourdes Sola'
+description: '“Resilience of Brazilian Democracy in comparative perspective”.'
+---
+
+Lourdes Sola
+
+“Resilience of Brazilian Democracy in comparative perspective”.

@@ -1,0 +1,15 @@
+---
+title: 'Conferência Ethos: Geopolítica em Transformação'
+date: 2025-01-01
+quando: '2025'
+status: ''
+local: 'São Paulo'
+tipo: 'Mesa-redonda e palestra'
+categories: ['Mesa-redonda e palestra']
+membros: 'Cristiane Lucena Carneiro'
+description: ''
+---
+
+Cristiane Lucena Carneiro
+
+

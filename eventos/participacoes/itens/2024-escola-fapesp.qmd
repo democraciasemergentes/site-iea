@@ -1,0 +1,15 @@
+---
+title: 'Escola Interdisciplinar para Pós-Doutorandos FAPESP'
+date: 2024-12-08
+quando: '8–12 dez. 2024'
+status: ''
+local: 'FAPESP, São Paulo'
+tipo: 'Formação'
+categories: ['Formação']
+membros: 'Larissa Basso'
+description: 'Humanidades, Ciências Sociais e Artes.'
+---
+
+Larissa Basso
+
+Humanidades, Ciências Sociais e Artes.

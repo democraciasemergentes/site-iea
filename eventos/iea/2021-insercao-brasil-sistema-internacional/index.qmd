@@ -1,0 +1,33 @@
+---
+title: 'A Inserção do Brasil no Sistema Internacional: Econômica, Política e Climático-Ambiental'
+date: 2021-06-25
+description: 'Com Guilherme Ary Plonski, Lourdes Sola, Eduardo Viola e outros.'
+categories: ['Geopolítica e geoeconomia', 'Clima e descarbonização']
+image: 'https://img.youtube.com/vi/OXb4HQJon8k/hqdefault.jpg'
+horario: '9h30 às 12h30'
+participantes: 'Guilherme Ary Plonski, Lourdes Sola, Eduardo Viola e outros'
+video: 'https://www.youtube.com/watch?v=OXb4HQJon8k'
+pagina-iea: 'https://www.iea.usp.br/eventos/insercao-brasil-sistema-internacional'
+title-block-banner: false
+language:
+  title-block-published: 'Realizado em'
+css: ../../eventos.css
+---
+
+{{< video https://www.youtube.com/embed/OXb4HQJon8k >}}
+
+```{=html}
+<dl class="evento-ficha">
+<dt>Quando</dt><dd>25/06/2021, 9h30 às 12h30</dd>
+<dt>Onde</dt><dd>Instituto de Estudos Avançados da USP</dd>
+<dt>Exposição</dt><dd>Guilherme Ary Plonski (IEA-USP)<br>Lourdes Sola (FFLCH-USP e IEA-USP)<br>Eduardo Viola (IEA-USP e UnB)<br>Otaviano Canuto<br>Celso Lafer<br>Rubens Ricupero<br>Laurence Whitehead (Oxford University)</dd>
+</dl>
+```
+
+```{=html}
+<p class="evento-acoes">
+<a class="btn-evento" href="https://www.iea.usp.br/eventos/insercao-brasil-sistema-internacional">Página do evento no IEA</a>
+<a class="btn-evento secundario" href="https://www.youtube.com/watch?v=OXb4HQJon8k">Assistir no YouTube</a>
+<a class="btn-evento secundario" href="../">Todos os seminários</a>
+</p>
+```

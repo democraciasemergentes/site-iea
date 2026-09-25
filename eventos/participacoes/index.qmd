@@ -1,0 +1,19 @@
+---
+title: "Congressos e participações"
+subtitle: "Organização de painéis, apresentações e mesas da equipe em congressos, universidades e fóruns no Brasil e no exterior"
+page-layout: full
+title-block-banner: false
+css: ../eventos.css
+include-after-body: ../eventos-js.html
+listing:
+  id: participacoes
+  contents: "itens/*.qmd"
+  sort: "date desc"
+  template: ../participacoes.ejs
+  fields: [title, date, categories, quando, status, local, tipo, membros, description]
+  date-format: "YYYY"
+  categories: true
+  filter-ui: true
+  sort-ui: false
+  page-size: 100
+---

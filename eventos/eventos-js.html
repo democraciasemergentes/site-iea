@@ -1,0 +1,21 @@
+<script>
+/* Linha do tempo: mostra o ano só no primeiro item visível de cada ano,
+   refazendo o cálculo sempre que a busca ou a categoria filtram a lista. */
+(function () {
+  const lista = document.querySelector(".linha-tempo");
+  if (!lista) return;
+  function marcarAnos() {
+    let anterior = null;
+    lista.querySelectorAll(".lt-item").forEach(function (li) {
+      if (li.offsetParent === null) return;           // item oculto pelo filtro
+      const ano = li.querySelector(".lt-ano").textContent.trim();
+      li.classList.toggle("abre-ano", ano !== anterior);
+      anterior = ano;
+    });
+  }
+  marcarAnos();
+  new MutationObserver(marcarAnos).observe(lista, {
+    childList: true, subtree: true, attributes: true, attributeFilter: ["style", "class"]
+  });
+})();
+</script>

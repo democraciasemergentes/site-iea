@@ -1,0 +1,34 @@
+---
+title: 'As Transformações do Sistema Internacional nos Últimos 5 Anos e seu Impacto no Brasil'
+date: 2022-12-08
+description: 'Com José Augusto Guilhon de Albuquerque, Laurence Whitehead e Matias Spektor.'
+categories: ['Geopolítica e geoeconomia']
+image: 'https://img.youtube.com/vi/aHMxw32rAJs/hqdefault.jpg'
+horario: '9h às 12h'
+participantes: 'José Augusto Guilhon de Albuquerque, Laurence Whitehead e Matias Spektor'
+video: 'https://youtu.be/aHMxw32rAJs'
+pagina-iea: 'https://www.iea.usp.br/eventos/transformacoes-sistema-internacional-ultimos-5-anos'
+title-block-banner: false
+language:
+  title-block-published: 'Realizado em'
+css: ../../eventos.css
+---
+
+{{< video https://www.youtube.com/embed/aHMxw32rAJs >}}
+
+```{=html}
+<dl class="evento-ficha">
+<dt>Quando</dt><dd>08/12/2022, 9h às 12h</dd>
+<dt>Onde</dt><dd>Instituto de Estudos Avançados da USP</dd>
+<dt>Exposição</dt><dd>José Augusto Guilhon de Albuquerque (USP)<br>Laurence Whitehead (Oxford University)<br>Matias Spektor (FGV-RI e Princeton University)</dd>
+<dt>Moderação</dt><dd>Eduardo Viola (IEA-USP e FGV-RI)</dd>
+</dl>
+```
+
+```{=html}
+<p class="evento-acoes">
+<a class="btn-evento" href="https://www.iea.usp.br/eventos/transformacoes-sistema-internacional-ultimos-5-anos">Página do evento no IEA</a>
+<a class="btn-evento secundario" href="https://youtu.be/aHMxw32rAJs">Assistir no YouTube</a>
+<a class="btn-evento secundario" href="../">Todos os seminários</a>
+</p>
+```

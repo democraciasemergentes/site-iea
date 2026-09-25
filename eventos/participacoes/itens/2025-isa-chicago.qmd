@@ -1,0 +1,15 @@
+---
+title: '66ª Convenção Anual da International Studies Association'
+date: 2025-03-02
+quando: '2–5 mar. 2025'
+status: ''
+local: 'Chicago, EUA'
+tipo: 'Apresentação de trabalho'
+categories: ['Apresentação de trabalho']
+membros: 'Larissa Basso'
+description: '“The climate commitment approach: a framework to analyze alignment with decarbonization in the Global South”.'
+---
+
+Larissa Basso
+
+“The climate commitment approach: a framework to analyze alignment with decarbonization in the Global South”.

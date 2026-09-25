@@ -1,0 +1,15 @@
+---
+title: 'A Supremocracia Desafiada'
+date: 2024-08-12
+quando: '12 ago. 2024'
+status: ''
+local: 'Escola de Direito da FGV, São Paulo'
+tipo: 'Mesa-redonda e palestra'
+categories: ['Mesa-redonda e palestra']
+membros: 'Maria Tereza Sadek'
+description: '“Embate do CNJ com a magistratura”.'
+---
+
+Maria Tereza Sadek
+
+“Embate do CNJ com a magistratura”.

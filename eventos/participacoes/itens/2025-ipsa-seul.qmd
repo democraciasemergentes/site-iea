@@ -1,0 +1,15 @@
+---
+title: '28º Congresso Mundial da IPSA'
+date: 2025-07-12
+quando: 'jul. 2025'
+status: ''
+local: 'Seul, Coreia do Sul'
+tipo: 'Organização de painéis e eventos'
+categories: ['Organização de painéis e eventos']
+membros: 'Eduardo Viola, Vinícius Rodrigues Vieira e Moisés Marques'
+description: 'Coliderança do programa do RC51, com 28 painéis e mesas — o maior de Economia Política Internacional desde a criação do comitê, em 2012. Moisés Marques apresentou “Liberal reforms and democracy: revisiting the incremental institutional building of the financial order in Brazil” e participou de mesa-redonda com Vinícius Rodrigues Vieira e T. V. Paul.'
+---
+
+Eduardo Viola, Vinícius Rodrigues Vieira e Moisés Marques
+
+Coliderança do programa do RC51, com 28 painéis e mesas — o maior de Economia Política Internacional desde a criação do comitê, em 2012. Moisés Marques apresentou “Liberal reforms and democracy: revisiting the incremental institutional building of the financial order in Brazil” e participou de mesa-redonda com Vinícius Rodrigues Vieira e T. V. Paul.
