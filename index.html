@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Democracias de Mercado Emergente – Democracias de Mercado Emergentes</title>
+<title>Democracias de mercado emergente</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -50,9 +50,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-adb0c564268edb8da9f55902fa1bd876.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d340c233f2bceea2ad080226fb437a17.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-adb0c564268edb8da9f55902fa1bd876.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2b8827fc0090f59213c26147726c9356.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-59ad5a29d2febdd3352f523849432801.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-2b8827fc0090f59213c26147726c9356.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,20 +82,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listagem-home .list');
+    const listingTargetEl = window.document.querySelector('#listing-home-seminarios .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-date','listing-image','listing-description','listing-categories','listing-horario','listing-participantes',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-lang","listing-format","listing-engines","listing-language","listing-title","listing-date","listing-description","listing-categories","listing-image","listing-horario","listing-participantes","listing-video","listing-pagina-iea","listing-title-block-banner","listing-css","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listagem-home'] = new List('listing-listagem-home', options);
+    window['quarto-listings']['listing-home-seminarios'] = new List('listing-home-seminarios', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -141,6 +141,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="assets/estilos.css">
+<link rel="stylesheet" href="eventos/eventos.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -313,8 +314,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.png" alt="IEA-USP · Grupo EPI" class="navbar-logo light-content">
-    <img src="./images/logo.png" alt="IEA-USP · Grupo EPI" class="navbar-logo dark-content">
+    <img src="./images/logo.png" alt="Democracias de mercado emergente · IEA-USP" class="navbar-logo light-content">
+    <img src="./images/logo.png" alt="Democracias de mercado emergente · IEA-USP" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Procurar"></div>
@@ -343,6 +344,21 @@ window.Quarto = {
     <a class="nav-link" href="./publicacoes/index.html"> 
 <span class="menu-text">Publicações</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-eventos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Eventos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-eventos">    
+        <li>
+    <a class="dropdown-item" href="./eventos/iea/index.html">
+ <span class="dropdown-text">Seminários no IEA</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./eventos/participacoes/index.html">
+ <span class="dropdown-text">Congressos e participações</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./posts/index.html"> 
 <span class="menu-text">Notícias</span></a>
@@ -360,7 +376,7 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.iea.usp.br" target="_blank"> 
+    <a class="nav-link" href="https://www.iea.usp.br"> 
 <span class="menu-text">IEA-USP</span></a>
   </li>  
 </ul>
@@ -396,21 +412,24 @@ window.Quarto = {
 </div>
 
 <style>
+  /* Paleta do site: #0E1B2A · #3565a0 · #96b5dc · #c2d4eb */
+
+  /* ---- Hero ---- */
   #iea-hero{
     position:relative; width:100%;
     min-height:clamp(340px, 46vw, 480px);
     display:flex; align-items:flex-start;
     border-radius:16px; overflow:hidden;
-    background:#0E1B2A; /* azul-noite institucional #0E1B2A; troque à vontade ... #98b9f4 */
+    background:#0E1B2A;
   }
   #iea-net{ position:absolute; inset:0; width:100%; height:100%; display:block; }
 
-/* véu para o texto ficar legível sobre a rede */
-#iea-hero::after{
-  content:""; position:absolute; inset:0;
-  background:radial-gradient(ellipse at center, rgba(63, 120, 189,.70) 0%, rgba(19,36,57,.70) 70%);
-  pointer-events:none;
-}
+  /* véu para o texto ficar legível sobre a rede */
+  #iea-hero::after{
+    content:""; position:absolute; inset:0;
+    background:radial-gradient(ellipse at center, rgba(63,120,189,.70) 0%, rgba(19,36,57,.70) 70%);
+    pointer-events:none;
+  }
   #iea-hero-content{
     position:relative; z-index:2;
     max-width:min(760px, 100%);
@@ -418,7 +437,6 @@ window.Quarto = {
     padding:4rem 3rem;
     color:#f4f7fb;
   }
-  /* zera margens que o tema do Quarto injeta em h1/p dentro do hero */
   #iea-hero-content > :first-child{ margin-top:0; }
   #iea-hero-content > :last-child{ margin-bottom:0; }
   .iea-title{
@@ -429,28 +447,20 @@ window.Quarto = {
   }
   .iea-sub{
     display:block;
-    font-size:1.02rem; color:#b9d0ec; margin:0; font-weight:400;
+    font-size:1.02rem; color:#c2d4eb; margin:0; font-weight:400;
   }
   @media (max-width:700px){
     #iea-hero-content{ padding:2rem 1.4rem; }
     #iea-hero::after{
-      background:linear-gradient(180deg, rgba(63, 120, 189,.55) 0%, rgba(63, 120, 189,.90) 100%);
+      background:linear-gradient(180deg, rgba(63,120,189,.55) 0%, rgba(63,120,189,.90) 100%);
     }
   }
 
-  /* botão-pílula reutilizado no corpo (ex.: "Ver todas as notícias") */
-  .btn-hero{
-    display:inline-block; padding:.7rem 1.4rem; border-radius:8px;
-    font-weight:600; text-decoration:none; font-size:.98rem;
-    background:#7fb4e6; color:#0E1B2A; transition:transform .12s ease, background .2s ease;
-  }
-  .btn-hero:hover{ transform:translateY(-2px); background:#9cc6ef; }
-
   /* ---- Seções do corpo da página ---- */
   .secao-titulo{
-    font-size:1.6rem; font-weight:600; color:#1d5b78;
+    font-size:1.6rem; font-weight:600; color:#0E1B2A;
     margin:2.6rem 0 1.1rem; padding-bottom:.4rem;
-    border-bottom:2px solid #e3edf3;
+    border-bottom:2px solid #c2d4eb;
   }
   .grid-destaques{
     display:grid; grid-template-columns:repeat(auto-fit, minmax(230px,1fr));
@@ -458,45 +468,43 @@ window.Quarto = {
   }
   .card-destaque{
     display:block; text-decoration:none; color:inherit; cursor:pointer;
-    background:#f7fafc; border:1px solid #e3edf3; border-radius:12px;
+    background:#f4f7fb; border:1px solid #c2d4eb; border-radius:12px;
     padding:1.5rem 1.4rem; transition:box-shadow .2s ease, transform .12s ease, border-color .2s ease;
   }
-  .card-destaque:hover{ box-shadow:0 6px 22px rgba(29,91,120,.12); transform:translateY(-3px); border-color:#96b5dc; }
+  .card-destaque:hover{ box-shadow:0 6px 22px rgba(14,27,42,.10); transform:translateY(-3px); border-color:#96b5dc; }
   .card-destaque:focus-visible{ outline:2px solid #3565a0; outline-offset:2px; }
   .card-destaque .icone{ font-size:2rem; margin-bottom:.6rem; }
-  .card-destaque h3{ font-size:1.15rem; color:#1d5b78; margin:0 0 .5rem; }
+  .card-destaque h3{ font-size:1.15rem; color:#3565a0; margin:0 0 .5rem; }
   .card-destaque p{ font-size:.95rem; line-height:1.5; color:#3f4a54; margin:0; }
 
+  /* ---- Coordenação ---- */
   .coord-destaque{
     display:grid; grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
     gap:1.2rem; margin:1.4rem 0;
   }
   .coord-card{
     display:flex; align-items:center; gap:1rem;
-    background:#f7fafc; border:1px solid #e3edf3; border-left:4px solid #1d5b78;
+    background:#f4f7fb; border:1px solid #c2d4eb; border-left:4px solid #3565a0;
     border-radius:10px; padding:1.1rem 1.3rem;
   }
-  .coord-card.vice{ border-left-color:#7fb4e6; }
   .avatar-fallback{
     flex:0 0 auto; width:56px; height:56px; border-radius:50%;
     display:flex; align-items:center; justify-content:center;
-    background:#1d5b78; color:#fff; font-weight:700; font-size:1.15rem;
+    background:#3565a0; color:#fff; font-weight:700; font-size:1.15rem;
   }
-  .coord-card.vice .avatar-fallback{ background:#7fb4e6; color:#0E1B2A; }
-  .coord-card .nome{ font-weight:700; color:#1d3a4a; font-size:1.05rem; }
-  .coord-card .papel{ color:#1d5b78; font-size:.9rem; font-weight:600; }
+  .coord-card .nome{ font-weight:700; color:#0E1B2A; font-size:1.05rem; }
+  .coord-card .papel{ color:#3565a0; font-size:.9rem; font-weight:600; }
   .coord-card .instituicao{ color:#5a6772; font-size:.86rem; }
 
-  .parceiros{
-    display:flex; flex-wrap:wrap; gap:.7rem; margin:1.2rem 0;
-  }
+  /* ---- Parceiros ---- */
+  .parceiros{ display:flex; flex-wrap:wrap; gap:.7rem; margin:1.2rem 0; }
   .parceiros a{
     display:inline-block; padding:.5rem 1rem; border-radius:999px;
-    background:#eef4f8; color:#1d5b78; text-decoration:none;
-    font-size:.9rem; font-weight:600; border:1px solid #dbe8f0;
+    background:#f4f7fb; color:#3565a0; text-decoration:none;
+    font-size:.9rem; font-weight:600; border:1px solid #c2d4eb;
     transition:background .2s ease;
   }
-  .parceiros a:hover{ background:#dbe8f0; }
+  .parceiros a:hover{ background:#c2d4eb; }
 </style>
 
 <script>
@@ -508,23 +516,22 @@ window.Quarto = {
 
   // grande = eixo de pesquisa · pequeno = tópico de discussão
   var nodes=[
-    {id:'econ',   label:'Economia',                  c:'#3565a0', big:true},
-    {id:'agro',   label:'Agronegócio',               c:'#3565a0', big:true},
-    {id:'clima',  label:'Clima e energia',           c:'#3565a0', big:true},
-    {id:'glob',   label:'Globalização',              c:'#3565a0', big:true},
-    {id:'direito',label:'Sistema de justiça',        c:'#3565a0', big:true},
-    {id:'ME', label:'Mercado emergente',         c:'#3565a0', big:true},
-    // tópicos de discussão
-    {id:'dme',    label:'Democracia',                c:'#3565a0'},
-    {id:'descarb',label:'Descarbonização',           c:'#3565a0'},
-    {id:'coaliz',    label:'Coalizões domésticas',                       c:'#3565a0'},
-    {id:'lesg', label:'Legislativo',               c:'#3565a0'},
-    {id:'geopol', label:'Geopolítica',               c:'#3565a0'},
-    {id:'ambiental', label:'Política ambiental',           c:'#3565a0'},
-    {id:'classes',label:'Classes médias emergentes', c:'#3565a0'},
-    {id:'statecraft',label:'Statecraft',             c:'#3565a0'},
-    {id:'varcap', label:'Variedades de capitalismo', c:'#3565a0'},
-    {id:'macroeco',label:'Macroeconomia',             c:'#3565a0'}
+    {id:'econ',      label:'Economia',                  c:'#3565a0', big:true},
+    {id:'agro',      label:'Agronegócio',               c:'#3565a0', big:true},
+    {id:'clima',     label:'Clima e energia',           c:'#3565a0', big:true},
+    {id:'glob',      label:'Globalização',              c:'#3565a0', big:true},
+    {id:'direito',   label:'Sistema de justiça',        c:'#3565a0', big:true},
+    {id:'ME',        label:'Mercado emergente',         c:'#3565a0', big:true},
+    {id:'dme',       label:'Democracia',                c:'#3565a0'},
+    {id:'descarb',   label:'Descarbonização',           c:'#3565a0'},
+    {id:'coaliz',    label:'Coalizões domésticas',      c:'#3565a0'},
+    {id:'lesg',      label:'Legislativo',               c:'#3565a0'},
+    {id:'geopol',    label:'Geopolítica',               c:'#3565a0'},
+    {id:'ambiental', label:'Política ambiental',        c:'#3565a0'},
+    {id:'classes',   label:'Classes médias emergentes', c:'#3565a0'},
+    {id:'statecraft',label:'Statecraft',                c:'#3565a0'},
+    {id:'varcap',    label:'Variedades de capitalismo', c:'#3565a0'},
+    {id:'macroeco',  label:'Macroeconomia',             c:'#3565a0'}
   ];
   var edges=[
     ['econ','ambiental'],['econ','lesg'],['econ','dme'],['econ','varcap'],['econ','macroeco'],
@@ -615,7 +622,7 @@ dedicado ao estudo comparativo de <strong>democracias de mercado emergente</stro
     <div class="icone">🏛️</div>
     <h3 class="anchored">Variedades de Democracia</h3>
     <p>Como diferentes arranjos institucionais moldam a qualidade e a resiliência
-    democrática em economias de mercado emergentes.</p>
+    democrática em economias de mercado emergente.</p>
   </a>
   <a class="card-destaque" href="linhas/#linha-epi">
     <div class="icone">🌐</div>
@@ -630,53 +637,74 @@ dedicado ao estudo comparativo de <strong>democracias de mercado emergente</stro
     e de reposicionamento do país no cenário global.</p>
   </a>
 </div>
-<section id="sobre-o-grupo" class="level2">
-<h2 class="anchored" data-anchor-id="sobre-o-grupo">Sobre o grupo</h2>
-<p>O grupo de pesquisa reúne pesquisadores dedicados à economia política internacional, às variedades de democracia e à descarbonização, no âmbito do Instituto de Estudos Avançados da USP e do projeto temático FAPESP.</p>
-<h2 class="secao-titulo anchored">Notícias e destaques</h2>
-<div id="listing-listagem-home" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="RXZlbnRvcyUyQ05hJTIwbSVDMyVBRGRpYQ==" data-listing-date-sort="1699574400000" data-listing-file-modified-sort="1790092807036" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
-<a href="./posts/seminario-democracia-descarbonizacao/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Seminário reúne rede internacional sobre democracias de mercado emergente
-</h5>
-<div class="card-text listing-description delink">
-<p>Encontro discutiu conjunturas críticas e as agendas de globalização, democracia e descarbonização no Brasil.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-10 de nov. de 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="SW5zdGl0dWNpb25hbCUyQ05vdmlkYWRlcw==" data-listing-date-sort="1655856000000" data-listing-file-modified-sort="1790092807036" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
-<a href="./posts/aprovacao-conselho-iea/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Grupo é aprovado pelo Conselho Deliberativo do IEA
-</h5>
-<div class="card-text listing-description delink">
-<p>O grupo de pesquisa foi oficializado em reunião de 22 de junho, sob coordenação de Lourdes Sola e vice-coordenação de Eduardo Viola.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-22 de jun. de 2022
+
+<h2 class="secao-titulo anchored">Sobre o grupo</h2>
+<p>O grupo de pesquisa reúne pesquisadores dedicados à economia política
+internacional, às variedades de democracia e à descarbonização, no âmbito
+do Instituto de Estudos Avançados da USP e do projeto temático FAPESP.</p>
+
+<h2 class="secao-titulo anchored">Seminários recentes no IEA</h2>
+<div id="listing-home-seminarios" class="quarto-listing quarto-listing-container-custom">
+<div class="list sem-grid">
+<article class="sem-card" data-index="0" data-categories="SnVzdGklQzMlQTdhJTIwZSUyMGluc3RpdHVpJUMzJUE3JUMzJUI1ZXM=" data-listing-date-sort="1777420800000" data-listing-file-modified-sort="1790347920573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<a class="sem-capa" href="./eventos/iea/2026-justica-economia-democracia/index.html" aria-label="Justiça, Economia e Agenda Democrática no Brasil"> <img src="https://img.youtube.com/vi/bbMmh02ZB1o/hqdefault.jpg" alt="" loading="lazy" onerror="this.remove()"> <span class="sem-play" aria-hidden="true"></span> </a>
+<div class="sem-corpo">
+<p class="sem-quando listing-date">
+29 abr 2026 · 14h às 17h
+</p>
+<h3 class="sem-titulo listing-title anchored">
+<a href="./eventos/iea/2026-justica-economia-democracia/index.html">Justiça, Economia e Agenda Democrática no Brasil</a>
+</h3>
+<p class="sem-pessoas listing-participantes">
+Luciano Benetti Timm e Ivar Alberto Hartmann
+</p>
+<div class="sem-temas listing-categories">
+<p><span class="listing-category sem-tema" onclick="window.quartoListingCategory('SnVzdGklQzMlQTdhJTIwZSUyMGluc3RpdHVpJUMzJUE3JUMzJUI1ZXM='); return false;">Justiça e instituições</span></p>
 </div>
 </div>
+</article>
+<article class="sem-card" data-index="1" data-categories="R2VvcG9sJUMzJUFEdGljYSUyMGUlMjBnZW9lY29ub21pYSUyQ0Vjb25vbWlhJTIwcG9sJUMzJUFEdGljYQ==" data-listing-date-sort="1754524800000" data-listing-file-modified-sort="1790347920573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
+<a class="sem-capa" href="./eventos/iea/2025-brasil-nova-era-geoeconomia/index.html" aria-label="O Brasil na Nova Era da Geoeconomia: como se Situar, como Responder"> <img src="https://img.youtube.com/vi/mTcDYckooLo/hqdefault.jpg" alt="" loading="lazy" onerror="this.remove()"> <span class="sem-play" aria-hidden="true"></span> </a>
+<div class="sem-corpo">
+<p class="sem-quando listing-date">
+7 ago 2025 · 9h às 13h
+</p>
+<h3 class="sem-titulo listing-title anchored">
+<a href="./eventos/iea/2025-brasil-nova-era-geoeconomia/index.html">O Brasil na Nova Era da Geoeconomia: como se Situar, como Responder</a>
+</h3>
+<p class="sem-pessoas listing-participantes">
+José Roberto Mendonça de Barros, Lourdes Sola, Raul Jungmann e Rubens Barbosa
+</p>
+<div class="sem-temas listing-categories">
+<p><span class="listing-category sem-tema" onclick="window.quartoListingCategory('R2VvcG9sJUMzJUFEdGljYSUyMGUlMjBnZW9lY29ub21pYQ=='); return false;">Geopolítica e geoeconomia</span></p>
+<p><span class="listing-category sem-tema" onclick="window.quartoListingCategory('RWNvbm9taWElMjBwb2wlQzMlQUR0aWNh'); return false;">Economia política</span></p>
 </div>
-</div></a>
 </div>
+</article>
+<article class="sem-card" data-index="2" data-categories="R2VvcG9sJUMzJUFEdGljYSUyMGUlMjBnZW9lY29ub21pYQ==" data-listing-date-sort="1747872000000" data-listing-file-modified-sort="1790347920573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
+<a class="sem-capa" href="./eventos/iea/2025-transformacoes-sistema-internacional/index.html" aria-label="Transformações do Sistema Internacional em 2025 e seu Impacto no Brasil"> <img src="https://img.youtube.com/vi/SGrAPyuyVIw/hqdefault.jpg" alt="" loading="lazy" onerror="this.remove()"> <span class="sem-play" aria-hidden="true"></span> </a>
+<div class="sem-corpo">
+<p class="sem-quando listing-date">
+22 mai 2025 · 14h às 17h
+</p>
+<h3 class="sem-titulo listing-title anchored">
+<a href="./eventos/iea/2025-transformacoes-sistema-internacional/index.html">Transformações do Sistema Internacional em 2025 e seu Impacto no Brasil</a>
+</h3>
+<p class="sem-pessoas listing-participantes">
+Embaixador Rubens Ricupero, Feliciano Guimarães, Guilherme Casarões e Eduardo Viola
+</p>
+<div class="sem-temas listing-categories">
+<p><span class="listing-category sem-tema" onclick="window.quartoListingCategory('R2VvcG9sJUMzJUFEdGljYSUyMGUlMjBnZW9lY29ub21pYQ=='); return false;">Geopolítica e geoeconomia</span></p>
+</div>
+</div>
+</article>
 </div>
 <div class="listing-no-matching d-none">Nenhum item correspondente</div>
 </div>
-<p style="margin-top:1rem;">
-<a href="posts/index.html" class="btn-hero" style="background:#1d5b78;color:#fff;">Ver todas as notícias →</a>
+<p class="evento-acoes" style="margin-top:1rem;">
+<a class="btn-evento" href="eventos/iea/">Todos os seminários</a>
+<a class="btn-evento secundario" href="eventos/participacoes/">Congressos e participações</a>
+<a class="btn-evento secundario" href="posts/">Notícias</a>
 </p>
 
 <h2 class="secao-titulo anchored">Coordenação</h2>
@@ -686,19 +714,19 @@ Grupo é aprovado pelo Conselho Deliberativo do IEA
     <div>
       <span class="nome">Lourdes Sola</span><br>
       <span class="papel">Coordenadora</span><br>
-      <span class="instituicao">FFLCH-USP · Professora Sênior do IEA</span>
+      <span class="instituicao">Professora Sênior do IEA e do DCP-USP</span>
     </div>
   </div>
-  <div class="coord-card vice">
+  <div class="coord-card">
     <div class="avatar-fallback">EV</div>
     <div>
       <span class="nome">Eduardo Viola</span><br>
-      <span class="papel">Vice-coordenador</span><br>
-      <span class="instituicao">IRI-UnB · Pesquisador Colaborador do IEA</span>
+      <span class="papel">Coordenador</span><br>
+      <span class="instituicao">Professor Visitante do IEA e da FGV</span>
     </div>
   </div>
 </div>
-<p><a href="equipe/index.html">Ver toda a equipe →</a></p>
+<p><a href="equipe/">Ver toda a equipe →</a></p>
 
 <h2 class="secao-titulo anchored">Rede e instituições parceiras</h2>
 <p>O projeto se articula com uma rede global de pesquisadores do Comitê de Pesquisa
@@ -715,7 +743,6 @@ Whitehead (Universidade de Oxford).</p>
   <a href="https://www.sfu.ca/">Simon Fraser University</a>
   <a href="https://www.american.edu/">American University</a>
 </div>
-</section>
 </div>
 
 
@@ -1144,13 +1171,13 @@ Whitehead (Universidade de Oxford).</p>
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><strong>Grupo de Pesquisa Democracias de mercado emergentes</strong><br> Instituto de Estudos Avançados da Universidade de São Paulo (IEA-USP)</p>
+<p><strong>Grupo de Pesquisa Democracias de mercado emergente</strong><br> Instituto de Estudos Avançados da Universidade de São Paulo (IEA-USP)</p>
 </div>   
     <div class="nav-footer-center">
-<p>Projeto FAPESP 2019/16970-5<br> Coordenação: Lourdes Sola · Eduardo Viola</p>
+<p>Projeto Temático FAPESP 2019/16970-5<br> Coordenação: Lourdes Sola · Eduardo Viola</p>
 </div>
     <div class="nav-footer-right">
-<p>© 2026 DME <br> Construído com <a href="https://quarto.org">Quarto</a></p>
+<p>© 2026 Democracias de mercado emergente<br> Construído com <a href="https://quarto.org">Quarto</a></p>
 </div>
   </div>
 </footer>

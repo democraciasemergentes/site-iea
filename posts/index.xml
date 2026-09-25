@@ -5,77 +5,74 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Democracias de Mercado Emergentes</title>
+<title>Democracias de mercado emergente</title>
 <link>https://epi-democracia.iea.usp.br/posts/</link>
 <atom:link href="https://epi-democracia.iea.usp.br/posts/index.xml" rel="self" type="application/rss+xml"/>
 <description>Grupo de Pesquisa do Instituto de Estudos Avançados da USP dedicado à Economia Política Internacional, às Variedades de Democracia e à Descarbonização.</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Fri, 10 Nov 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 24 Sep 2026 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>Seminário reúne rede internacional sobre democracias de mercado emergente</title>
-  <dc:creator>Secretaria do Grupo</dc:creator>
-  <link>https://epi-democracia.iea.usp.br/posts/seminario-democracia-descarbonizacao/</link>
+  <title>Livro do grupo é aprovado pela Editora Unesp</title>
+  <dc:creator>Democracias de mercado emergente</dc:creator>
+  <link>https://epi-democracia.iea.usp.br/posts/2026-livro-unesp/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p>Pesquisadores do grupo e colaboradores internacionais do Comitê de Pesquisa em Economia Política Internacional da IPSA reuniram-se para discutir os processos de reconfiguração de poder no sistema internacional e o lugar das democracias de mercado emergente.</p>
-<p>O debate deu atenção especial às <strong>políticas econômicas e climático-ambientais</strong> implementadas no Brasil desde o final dos anos 1990, com foco nas conjunturas críticas em que desafios de governança democrática pautaram escolhas decisivas.</p>
-<blockquote class="blockquote">
-<p>A observação de conjunturas críticas permite situar as opções de políticas públicas do país tanto em seu impacto estratégico interno quanto em sua forma de inserção no cenário global.</p>
-</blockquote>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Post de exemplo — substitua pelo conteúdo real e adicione uma imagem de capa com <code>image: capa.jpg</code> no cabeçalho YAML.</p>
-</div>
-</div>
-</div>
+<p>O livro <em>O Brasil como Democracia de Mercado Emergente: Statecraft, Globalização e Resiliência na Era Liberal</em>, organizado por Lourdes Sola e Eduardo Viola, foi aprovado para publicação pela Editora Unesp. A obra reúne os resultados dos dois primeiros anos (2023–2025) do projeto temático FAPESP <em>O Brasil como variedade de democracia de mercado emergente: entre a agenda da globalização e a agenda democrática</em>, com textos de pesquisadores, pós-doutorandos e bolsistas do grupo.</p>
+<section id="a-proposta" class="level2">
+<h2 class="anchored" data-anchor-id="a-proposta">A proposta</h2>
+<p>O conceito de democracia de mercado emergente, ancorado no marco analítico desenvolvido por Laurence Whitehead e por Lourdes Sola e Whitehead, busca situar as respostas de economias políticas tradicionalmente permeadas pelo Estado — como as da América Latina, do Leste Asiático e a Índia — às pressões liberalizantes da globalização e às demandas da agenda democrática nacional.</p>
+<p>O livro examina o caso brasileiro pelas lentes da economia política comparada, da literatura sobre variedades de capitalismo e de democracia e do institucionalismo histórico, articulando dois campos de observação: a política econômica e a política climático-ambiental. A obra também abre caminho para o segundo ciclo da pesquisa, dedicado ao papel de atores políticos e agentes econômicos específicos — agronegócio, classes médias emergentes, sistema financeiro e sistema de justiça.</p>
+</section>
+<section id="sumário" class="level2">
+<h2 class="anchored" data-anchor-id="sumário">Sumário</h2>
+<p><strong>Introdução</strong></p>
+<ul>
+<li>Lourdes Sola e Eduardo Viola — <em>O Brasil como democracia de mercado emergente: entre a agenda democrática e a agenda da globalização</em></li>
+</ul>
+<p><strong>Parte I — Perspectivas fundacionais: os dois campos de observação</strong></p>
+<ul>
+<li>Lourdes Sola — <em>A moeda antes da lei: a institucionalização política da estabilidade monetária</em></li>
+<li>Eduardo Viola — <em>A política climática internacional em perspectiva histórica: 1992–2026</em></li>
+</ul>
+<p><strong>Parte II — O campo político-econômico: <em>democratic statecrafting</em> e estabilidade institucional</strong></p>
+<ul>
+<li>Moisés da Silva Marques — <em>A construção gradual da ordem financeira no Brasil: processos, atores e resultados</em></li>
+<li>Sérgio Vale — <em>Do caos ao tripé e de volta? Política fiscal, conjuntura crítica e o legado inacabado do Plano Real</em></li>
+<li>Sérgio Vale e Lourdes Sola — <em>Dívida, não commodities: política fiscal e reeleição em democracias ricas em recursos naturais</em></li>
+</ul>
+<p><strong>Parte III — O campo climático-ambiental: <em>democratic statecrafting</em> e resiliência na era pós-liberal</strong></p>
+<ul>
+<li>Larissa Basso e Eduardo Viola — <em>Formação e estabilização da política climática brasileira, 1974–2010</em></li>
+<li>Larissa Basso e Eduardo Viola — <em>Coalizões políticas e ambição climática: comparação dos governos Lula 1-2 e Lula 3</em></li>
+</ul>
+<p><strong>Parte IV — A inserção internacional como variável causal</strong></p>
+<ul>
+<li>Vinícius Rodrigues Vieira — <em>Tendências sistêmicas e realinhamentos domésticos: capitalismo de agência e as coalizões de comércio exterior no Brasil</em></li>
+<li>Cristiane Lucena Carneiro e Luiz Antonio Camilher — <em>O Brasil e o sistema multilateral de comércio, 1995–2024</em></li>
+</ul>
+<p><strong>Parte V — Teste de estresse: federalismo democrático e pandemia</strong></p>
+<ul>
+<li>Lourdes Sola, Cristiane Lucena Carneiro e Vinícius Rodrigues Vieira — <em>Federalismo e governança em saúde pública: o papel da coordenação horizontal estadual nas respostas à Covid-19</em></li>
+</ul>
+<p><strong>Parte VI — O <em>capstone</em> institucional: sistema de justiça e democracia</strong></p>
+<ul>
+<li>Luciana Yeung, Maria Tereza Aina Sadek e Marina Zalcberg Ângulo — <em>Judiciário, economia e democracia</em></li>
+</ul>
+<p>também a <a href="../../publicacoes/">produção do grupo em Publicações</a>.</p>
+<p>“Obs: a publicação está prevista após a conclusão do apoio da FAPESP”.</p>
 
 
-
- ]]></description>
-  <category>Eventos</category>
-  <category>Na mídia</category>
-  <guid>https://epi-democracia.iea.usp.br/posts/seminario-democracia-descarbonizacao/</guid>
-  <pubDate>Fri, 10 Nov 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Grupo é aprovado pelo Conselho Deliberativo do IEA</title>
-  <dc:creator>Secretaria do Grupo</dc:creator>
-  <link>https://epi-democracia.iea.usp.br/posts/aprovacao-conselho-iea/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>O grupo de pesquisa <strong>Economia Política Internacional, Variedades de Democracia e Descarbonização</strong> foi aprovado pelo Conselho Deliberativo do Instituto de Estudos Avançados da USP em reunião realizada no dia 22 de junho de 2022.</p>
-<p>Originado a partir do projeto <em>“O Brasil como uma Variedade de Democracia de Mercado Emergente”</em>, em desenvolvimento no IEA desde agosto de 2020, o grupo reúne pesquisadores de diferentes instituições em torno da análise política das respostas do Brasil à globalização.</p>
-<p>A coordenação é da cientista política Lourdes Sola (FFLCH-USP), com vice-coordenação de Eduardo Viola (IRI-UnB).</p>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Este é um post de exemplo. Para criar um novo, duplique esta pasta em <code>posts/</code>, edite o cabeçalho YAML (título, data, categorias) e o conteúdo.</p>
-</div>
-</div>
-</div>
-
-
+</section>
 
  ]]></description>
-  <category>Institucional</category>
-  <category>Novidades</category>
-  <guid>https://epi-democracia.iea.usp.br/posts/aprovacao-conselho-iea/</guid>
-  <pubDate>Wed, 22 Jun 2022 00:00:00 GMT</pubDate>
+  <category>Publicações</category>
+  <category>Livro</category>
+  <guid>https://epi-democracia.iea.usp.br/posts/2026-livro-unesp/</guid>
+  <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

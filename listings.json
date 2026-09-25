@@ -1,16 +1,82 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/posts/index.html",
     "items": [
-      "/posts/seminario-democracia-descarbonizacao/index.html",
-      "/posts/aprovacao-conselho-iea/index.html"
+      "/posts/2026-livro-unesp/index.html"
     ]
   },
   {
-    "listing": "/posts/index.html",
+    "listing": "/eventos/iea/index.html",
     "items": [
-      "/posts/seminario-democracia-descarbonizacao/index.html",
-      "/posts/aprovacao-conselho-iea/index.html"
+      "/eventos/iea/2026-justica-economia-democracia/index.html",
+      "/eventos/iea/2025-brasil-nova-era-geoeconomia/index.html",
+      "/eventos/iea/2025-transformacoes-sistema-internacional/index.html",
+      "/eventos/iea/2024-nova-geopolitica-global/index.html",
+      "/eventos/iea/2023-ideias-economicas-decisoes-politicas/index.html",
+      "/eventos/iea/2023-shaping-nations-markets/index.html",
+      "/eventos/iea/2023-great-power-competition/index.html",
+      "/eventos/iea/2023-soft-power-hard-power/index.html",
+      "/eventos/iea/2022-transformacoes-sistema-internacional/index.html",
+      "/eventos/iea/2022-continuidade-ruptura/index.html",
+      "/eventos/iea/2021-agronegocio-economia-politica/index.html",
+      "/eventos/iea/2021-homenagem-weffort/index.html",
+      "/eventos/iea/2021-questao-climatica/index.html",
+      "/eventos/iea/2021-insercao-brasil-sistema-internacional/index.html",
+      "/eventos/iea/2021-desenvolvimentismo-decadente/index.html"
+    ]
+  },
+  {
+    "listing": "/eventos/participacoes/index.html",
+    "items": [
+      "/eventos/participacoes/itens/2027-ipsa-roma.html",
+      "/eventos/participacoes/itens/2026-ipsa-wip.html",
+      "/eventos/participacoes/itens/2026-rc51-dublin.html",
+      "/eventos/participacoes/itens/2026-homenagem-moises.html",
+      "/eventos/participacoes/itens/2026-mpsa.html",
+      "/eventos/participacoes/itens/2025-making-sense.html",
+      "/eventos/participacoes/itens/2025-congresso-posdocs-usp.html",
+      "/eventos/participacoes/itens/2025-anppas.html",
+      "/eventos/participacoes/itens/2025-isa-abri.html",
+      "/eventos/participacoes/itens/2025-ipsa-seul.html",
+      "/eventos/participacoes/itens/2025-idesf-aba.html",
+      "/eventos/participacoes/itens/2025-isa-chicago.html",
+      "/eventos/participacoes/itens/2025-qualidade-democracia.html",
+      "/eventos/participacoes/itens/2025-apsa.html",
+      "/eventos/participacoes/itens/2025-isa-diplomatic.html",
+      "/eventos/participacoes/itens/2025-ethos.html",
+      "/eventos/participacoes/itens/2024-escola-fapesp.html",
+      "/eventos/participacoes/itens/2024-redgob-oxford.html",
+      "/eventos/participacoes/itens/2024-brasil-saiu-urnas.html",
+      "/eventos/participacoes/itens/2024-cnpg.html",
+      "/eventos/participacoes/itens/2024-supremocracia.html",
+      "/eventos/participacoes/itens/2024-abcp.html",
+      "/eventos/participacoes/itens/2024-oit-genebra.html",
+      "/eventos/participacoes/itens/2024-fgv-ri.html",
+      "/eventos/participacoes/itens/2024-rc51-lusiada.html",
+      "/eventos/participacoes/itens/2024-ipsa-75-anos.html",
+      "/eventos/participacoes/itens/2024-democracy-latin-america.html",
+      "/eventos/participacoes/itens/2024-universidad-austral.html",
+      "/eventos/participacoes/itens/2023-ipsa-buenos-aires.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/eventos/iea/2026-justica-economia-democracia/index.html",
+      "/eventos/iea/2025-brasil-nova-era-geoeconomia/index.html",
+      "/eventos/iea/2025-transformacoes-sistema-internacional/index.html",
+      "/eventos/iea/2024-nova-geopolitica-global/index.html",
+      "/eventos/iea/2023-ideias-economicas-decisoes-politicas/index.html",
+      "/eventos/iea/2023-shaping-nations-markets/index.html",
+      "/eventos/iea/2023-great-power-competition/index.html",
+      "/eventos/iea/2023-soft-power-hard-power/index.html",
+      "/eventos/iea/2022-transformacoes-sistema-internacional/index.html",
+      "/eventos/iea/2022-continuidade-ruptura/index.html",
+      "/eventos/iea/2021-agronegocio-economia-politica/index.html",
+      "/eventos/iea/2021-homenagem-weffort/index.html",
+      "/eventos/iea/2021-questao-climatica/index.html",
+      "/eventos/iea/2021-insercao-brasil-sistema-internacional/index.html",
+      "/eventos/iea/2021-desenvolvimentismo-decadente/index.html"
     ]
   },
   {
